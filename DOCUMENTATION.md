@@ -1,12 +1,61 @@
 # Data Coordinating Center - Dataset Ingress
 
-The Data Coordinating Center (DCC) dataset ingress process consists of three main stages
+The Data Coordinating Center (DCC) dataset ingress process consists of three easy steps:
 
-1. [__Dataset transfer to DCC__](#data_transfer): *Transfer your experimental data files to a cloud storage bucket.* Depending on dataset size, this step may take you anywhere from a few minutes up to multiple hours.
+1. **Upload** your data to Synapse 
 
-2. [__Metadata upload__](#metadata_upload): *Upload a spreadsheet of your metadata annotations for your data files.* Depending on the number and diversity of dataset files, this step could take you from 10 minutes to a couple of hours.
+2. **Request** a metadata template through our web interface (dependent on your data types) 
 
-3. [__Metadata validation and dataset submission confirmation__](#submission_confirmation): *Verify that your metadata meets requirements.* This step should take you less than 30 seconds on a typical internet connection, and completes your submission to the DCC.
+3. **Annotate and submit** your metadata: initiates data validation and sharing 
+
+
+## Step 1: Upload your data to Synpase
+
+To begin: contact your DCC liaison prior to upload to let them know that you're about to begin the upload process. If you're not sure who your DCC liaison is, you can use the DCC Liaison table (below) to find them.
+
+|   Center   |  Liaison    |   Contact Person   |   Contact Email   |
+| ---- | ---- | ---- | ---- |
+|   Boston University   | DFCI | Ethan Cerami | cerami@jimmy.harvard.edu |
+|   CHOP   | MSK | Nikolaus Schultz | schultz@cbio.mskcc.org |
+| DFCI | DFCI | Ethan Cerami | cerami@jimmy.harvard.edu |
+| Duke | MSK | Nikolaus Schultz | schultz@cbio.mskcc.org |
+| HMS | Sage | Milen Nikolov | milen.nikolov@sagebase.org |
+| HTAPP | ISB | Vésteinn Þórsson | thorsson@systemsbiology.org |
+| MSK | MSK | Nikolaus Schultz | schultz@cbio.mskcc.org |
+| OHSU | Sage | Milen Nikolov | milen.nikolov@sagebase.org |
+| PCAPP | DFCI | Ethan Cerami | cerami@jimmy.harvard.edu |
+| Stanford | Sage | Milen Nikolov | milen.nikolov@sagebase.org |
+| TNP Sardana | Sage | Brian White | brian.white@sagebase.org |
+| Vanderbilt | ISB | Vésteinn Þórsson | thorsson@systemsbiology.org |
+| WUSTL | Sage | Milen Nikolov | milen.nikolov@sagebase.org |
+
+When you reach out to your DCC liaison, let them know the following:
+- Your center
+- Your datatype
+- Your desired cloud storage (AWS, GCS)*
+- Who on your team will be doing the data upload
+
+Here's an email template that you can fill out and send:
+
+```
+Hello DCC Liaison,
+
+We're ready to begin uploading <your datatype here> for <your center here>. We'd like to use <cloud storage type>. My team members that will be assisting in this process will be:
+- <team member 1 name, team member 1 email>
+- <team member 2 name, team member 2 email>
+- <team member 3 name, team member 3 email>
+
+<Your signature>
+```
+
+With the above information, the DCC will initialize your Synapse project and storage location.
+
+*_If you're interested in a more detailed explanation for selecting your storage platform, please refer to the "[Selecting Storage Platform](#selecting-storage-platform)" section below._
+
+## Step 2: Request a metadata template 
+
+## Step 3: Annotate and submit your metadata
+
 
 A dataset is a set of experimental data files derived from a single type of experimental platform, such as single-cell RNA sequencing. The chart below provides a high-level overview of the steps an HTAN Center needs to complete in each stage. Software tools steamlining the process are linked and documented, as well as contacts of DCC liaisons that can provide additional information and help facilitate data submission.
 
