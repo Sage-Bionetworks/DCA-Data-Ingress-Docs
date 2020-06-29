@@ -17,4 +17,4 @@ The Data Coordinating Center (DCC) dataset ingress process consists of three eas
 3. [**Annotate and submit** your metadata: initiates data validation and sharing ](step-3)
 
 
-If you need clarification at any point, please don't hestiate to reach out to your [DCC Liaison](step-1). 
+If you need clarification at any point, please don't hestiate to reach out to your [DCC Liaison](dcc-liaison). 

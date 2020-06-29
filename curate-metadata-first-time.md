@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Curate a Dataset for the First Time
+title: Detailed Generating Metadata Template Steps
 parent: Step 2 - Request a Metadata Template
 nav_order: 1
 ---
 
-# Curate a Dataset for the First Time
+# Generating a Template to Curate a Dataset for the First Time
 
 #### Pre-requisites
 - You are a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users)
@@ -14,12 +14,12 @@ nav_order: 1
 
 ## Step-by-Step
     
-_In this example, we'll be using an example `scRNAseq` dataset named `scRNASeq Ischaemic Sensitivity of Human Tissue` located in a Synapse Project called `HTAN HCA immune cells census`._
+_In this how-to, we'll be using an example `scRNAseq` dataset named `scRNASeq Ischaemic Sensitivity of Human Tissue` located in a Synapse Project called `HTAN HCA immune cells census`._
     
 1. Access the [Data Curator app](https://www.synapse.org/#!Wiki:syn20681266/ENTITY)
     - If you are prompted to login to Synapse, please use your Synapse account (or associated Google account).
   
-2. In the app, go to the "*Select Your Dataset*" section in the left-hand menu. From that page, select your project from the dropdown. 
+2. In the app, go to the "**Select Your Dataset**" section in the left-hand menu. From that page, select your project from the dropdown. 
     - The project name corresponds to the bucket name (here `HTAN HCA immune cells census`).  
 
     ![dcc-onboarding-flow-project-selection](https://user-images.githubusercontent.com/12868382/86056211-f40e2700-ba11-11ea-8d31-cbd7fc60e95c.png)

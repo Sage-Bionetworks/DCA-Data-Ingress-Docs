@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Step 3 - Annotate and Submit Your Metadata
+title: Step 3 - Annotate and Submit Your Metadata Overview
 nav_order: 4
 ---
+
+# Step 3 - Annotate and Submit Your Metadata Overview
 
 Using the Data Ingress App, you can annotate and submit your metadata.
 
