@@ -5,96 +5,45 @@ parent: Step 2 - Request a Metadata Template
 nav_order: 1
 ---
 
-Use the <a href = "https://www.synapse.org/#!Wiki:syn20681266/ENTITY">Data Curator app</a> to curate a dataset for a first time.
-    
-You have already transfered your dataset to the DCC - congratulations! If you have not, please follow the instructions [here](#data_transfer). 
-    
-Please provide the metadata for your dataset using the Data Curator app. Here we assume your dataset is named `hta-x-dataset`.
-    
-Access the <a href = "https://www.synapse.org/#!Wiki:syn20681266/ENTITY">Data Curator app</a>
+# Curate a Dataset for the First Time
 
-If you are prompted to login to Synapse, please use your Synapse account (or associated Google account).
+#### Pre-requisites
+- You are a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users)
+- You have [transferred your dataset to the DCC](uploading-data)
+
+
+## Step-by-Step
+    
+_In this example, we'll be using an example `scRNAseq` dataset named `scRNASeq Ischaemic Sensitivity of Human Tissue` located in a Synapse Project called `HTAN HCA immune cells census`._
+    
+1. Access the [Data Curator app](https://www.synapse.org/#!Wiki:syn20681266/ENTITY)
+    - If you are prompted to login to Synapse, please use your Synapse account (or associated Google account).
   
-In the app, from the first tab, select your project. The project name corresponds to the bucket name (here `hta-x`).  Then select your dataset, which corresponds to the folder name in your bucket (`hta-x-dataset`).
-Then select the metadata template you would like to use (e.g. scRNASeq if providing metadata for a scRNASeq dataset). If you don't see the correct template for your dataset, you can select the "Minimal Metadata" template and <i>contact your DCC liaison</i>.
+2. In the app, go to the "*Select Your Dataset*" section in the left-hand menu. From that page, select your project from the dropdown. 
+    - The project name corresponds to the bucket name (here `HTAN HCA immune cells census`).  
 
+    ![dcc-onboarding-flow-project-selection](https://user-images.githubusercontent.com/12868382/86056211-f40e2700-ba11-11ea-8d31-cbd7fc60e95c.png)
     
-![DataCurator project selection](https://user-images.githubusercontent.com/41303818/68252750-29758880-ffdb-11e9-80a9-dd1efa2174d4.png)   
+3. Next, select your dataset, which corresponds to the folder name in your bucket (here `scRNASeq Ischaemic Sensitivity of Human Tissue`).
+
+    ![dcc-onboarding-flow-select-folder](https://user-images.githubusercontent.com/12868382/86056396-3b94b300-ba12-11ea-89e9-1f6bfc9f50cd.png)
+
+4. Then, select the metadata template you would like to use (here `scRNA-seq Level 1`). If you don't see the correct template for your dataset, you can select the "Minimal Metadata" template and [contact your DCC liaison](step-1).
+
+    ![dcc-onboarding-flow-select-dataset](https://user-images.githubusercontent.com/12868382/86056447-523b0a00-ba12-11ea-8a97-3311dccaedb1.png)
 
 
-Once you have selected your dataset and metadata template, navigate to the second tab "Get Metadata Template" and click on "Link to Google Sheets Template". This will generate a link to a Google spreadsheet containing an empty template for you to complete with metadata, for each of the files in your dataset. 
+5. Once you have selected your dataset and metadata template, navigate to the "*Get Metadata Template*" section in the left-hand menu. Select the "*Click to Generate Google Sheets Template*" button. 
+    - This will generate a link to a Google spreadsheet containing an empty template for you to complete with metadata, for each of the files in your dataset. This can take several minutes depending on how many files are in your folder, so please be patient!
 
-![dataCurator MetadataTab](https://user-images.githubusercontent.com/15043209/66961248-10546a00-f023-11e9-8cc0-fd5e4f07dd08.png)
+    ![dcc-onboarding-flow-generate-template](https://user-images.githubusercontent.com/12868382/86057211-9aa6f780-ba13-11ea-9430-35a7f1e4c3e2.png)
+
  
-![dataCurator LinktoTemp](https://user-images.githubusercontent.com/15043209/66961254-15b1b480-f023-11e9-872b-2e7d6521b898.png)
+6. Click on the generated link to open the template on the web. 
+
+    ![dcc-onboarding-flow-link-to-template](https://user-images.githubusercontent.com/12868382/86057431-04bf9c80-ba14-11ea-936a-3203ab5bb893.png)
+
  
 
 You can fill out the sheet on the web, using dropdowns with allowed values and other standard Google Sheet features.
-
-![gtemplate Empty](https://user-images.githubusercontent.com/15043209/66961318-41349f00-f023-11e9-9107-466bdab77034.png)
- 
-![gtemplate Filled](https://user-images.githubusercontent.com/15043209/66962305-86f26700-f025-11e9-92dc-254a75ef41f9.png)
-
-Note that you can also save the spreadsheet as a CSV file and use a method of your choice to fill it out. The metadata CSV will be validated by the Data Curator app before submission in any case.
-  
-
-Once filled in, you can save your spreadsheet as a CSV (File -> Download -> Comma-separated Value...)
-    
-![gtemplateDLCSV](https://user-images.githubusercontent.com/15043209/66962318-8fe33880-f025-11e9-8426-4ce26de5a2c9.png)
-
-
-Next: navigate to the third tab "Submit & Validate Metadata"
-
-![dataCurator SubmitTab](https://user-images.githubusercontent.com/15043209/66962329-95d91980-f025-11e9-9fe4-7c44b0d13d42.png)
-
-
-Upload your saved CSV.
-
-![dataCurator UploadCSV](https://user-images.githubusercontent.com/15043209/66962344-9e315480-f025-11e9-9547-9d5ca3d713ca.png)
-
-
- * If upload was successful, you will see your  metadata entries in the Metadata Preview 
-
-![dataCurator MetadataPrev](https://user-images.githubusercontent.com/15043209/66962357-a5586280-f025-11e9-8eb8-7acfc48a54ef.png)
-
-
->Click "Validate Metadata"
-   
- * If your metadata is valid, you will see a corresponding message and a "Submit" button will become available.
- 
-![dataCurator ValidateSuccess](https://user-images.githubusercontent.com/15043209/66962370-aab5ad00-f025-11e9-890b-8a2b3209c202.png)
-
-* Clicking the "Submit" button confirms that this dataset has been curated according to the relevant DCC  data model. You will receive a link to your metadata in the Synapse system.
-
-![dataCurator SubmitSuccess](https://user-images.githubusercontent.com/15043209/66962379-b1442480-f025-11e9-9407-34dc6e33952d.png)
-
-
-
-If your metadata has been validated and submitted successfully, your metadata will appear in the "Files and Metadata" Table in your Synapse Project.
-
-![Fileview NewAnno](https://user-images.githubusercontent.com/15043209/66963842-98d60900-f029-11e9-83d9-cb81d0842624.png)
-
-
-If you receive an error upon pressing the "Validate Metadata" button, the metadata template-cells causing the error will be highlighted, along with a corresponding list of error details
-  
-![dataCurator ValidateError](https://user-images.githubusercontent.com/15043209/66964059-4ea15780-f02a-11e9-96ad-cf7e236f0012.png)
-
-* You can edit your file in a Google spreadsheet (click the link following the errors) and re-download it as a CSV or edit your CSV locally, as shown here on Excel.
-
-![excel TemplateFixed](https://user-images.githubusercontent.com/15043209/66964181-bbb4ed00-f02a-11e9-95ef-2b8e8c3053fe.png)
-
-* Upload your file and see your metadata updates reflected
-
-![dataCurator UploadFixedFile](https://user-images.githubusercontent.com/15043209/66964212-d38c7100-f02a-11e9-9ce4-68bbac611bfc.png)
-
-* Press the "Validate Metadata" button again
-
-![dataCurator ValidateFixedFile](https://user-images.githubusercontent.com/15043209/66964227-e010c980-f02a-11e9-99f1-b7f06c42c3e5.png)
-
-* If all errors have been resolved, you can submit your validated metadata
-
-![dataCurator SubmitFixedFile](https://user-images.githubusercontent.com/15043209/66964257-f1f26c80-f02a-11e9-90d7-18f9459dab85.png)
-
-* Please contact your DCC liaison if you cannot resolve a metadata error; or have questions regarding metadata submission.
-
 
