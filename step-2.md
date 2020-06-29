@@ -30,5 +30,5 @@ We are working on providing:
    and 
    2. An API for programmatic metadata upload and management. 
    
-   These will be available in the next release of the DCC data pipeline. Please check with your [DCC liaison](step-1) on details.
+   These will be available in the next release of the DCC data pipeline. Please check with your [DCC liaison](dcc-liaison) on details.
  
