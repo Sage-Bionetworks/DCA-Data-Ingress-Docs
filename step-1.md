@@ -1,15 +1,11 @@
 ---
 layout: default
-title: Upload Your Data to Synapse
+title: Step 1 - Upload Your Data to Synapse
 nav_order: 2
 has_children: true
 ---
 
-
-
-## Step 1: Upload your data to Synpase
-
-To begin: contact your DCC liaison prior to upload to let them know that you're about to begin the upload process. If you're not sure who your DCC liaison is, you can use the DCC Liaison table (below) to find them.
+Before uploading any data to Synapse, the very first step is to contact your DCC liaison. If you're not sure who your DCC liaison is, you can use the DCC Liaison table (below) to find them.
 
 |   Center   |  Liaison    |   Contact Person   |   Contact Email   |
 | ---- | ---- | ---- | ---- |
@@ -46,6 +42,9 @@ We're ready to begin uploading <your datatype here> for <your center here>. We'd
 <Your signature>
 ```
 
-With the above information, the DCC will initialize your Synapse project and storage location.
+With the above information, the DCC will initialize your Synapse project and storage location. Once your Synapse project has been initialized, you can upload your data using either the web or programmatic interface. 
 
-*_If you're interested in a more detailed explanation for selecting your storage platform, please refer to the "[Selecting Storage Platform](#selecting-storage-platform)" section below.
+[Next: Uploading Data](uploading-data){: .btn }
+
+*For a more detailed explanation for selecting your storage platform, please refer to the "[Selecting Storage Platform](selecting-a-storage-platform)" section.
+

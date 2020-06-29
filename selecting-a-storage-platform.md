@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Selecting a Storage Platform
-parent: reach-out-to-liaison
-grand_parent: step-1
+parent: Step 1 - Upload Your Data to Synapse
 nav_order: 1
 ---
 
@@ -13,7 +12,7 @@ Your center may decide where to store datasets depending on existing contracts, 
 
 The DCC supports dataset transfers to both Amazon and Google clouds via the Synapse platform. If you do not already have an account, [please register for a Synapse account](https://www.synapse.org/#!RegisterAccount:0) using your institutional email address.  
 
-[Link button](https://www.synapse.org/#!RegisterAccount:0){: .btn .btn-purple }
+[Create a Synapse Account](https://www.synapse.org/#!RegisterAccount:0){: .btn .btn-purple }
 
 Next, please provide your Synapse username and indicate your cloud platform preference to your DCC liaison. You can indicate a cloud platform of your choice, however the DCC recommends the following options:
 
