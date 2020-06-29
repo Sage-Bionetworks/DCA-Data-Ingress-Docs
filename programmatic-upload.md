@@ -14,7 +14,7 @@ You can modify the Python code vignette below for your particular dataset upload
 
 To get started, first install the Synapse Python client:
 
-```
+```bash
 pip install synapseclient
 ```
 

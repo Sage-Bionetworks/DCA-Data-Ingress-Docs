@@ -20,7 +20,7 @@ At present, the DCC supports a web-based metadata upload via the [Data Curator w
 
 For a detailed step-by-step on how to curate your metadata for the first time or for how to update exisiting metadata, please refer to the following pages:
 
-[Go to Detailed Curating Metadata Steps](web-curate-metadata-first-time){: .btn }
+[Go to Detailed Curating Metadata Steps](curate-metadata-first-time){: .btn }
 
 [Go to Updating Existing Metadata Steps](update-existing-metadata){: .btn }
 
