@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Update Existing MEtadata
+title: Update Existing Metadata
 parent: Step 2 - Request a Metadata Template
 nav_order: 2
 ---
