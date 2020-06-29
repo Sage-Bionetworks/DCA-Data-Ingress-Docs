@@ -1,0 +1,15 @@
+# display title and description
+title: HTAN Data Ingress Docs
+description: Data ingress how-to docs for the HTAN community 
+
+# the remote theme that's being used
+remote_theme: pmarsceill/just-the-docs
+
+# Aux links for the upper right navigation, linking to the data ingress too
+aux_links:
+  "Go To Data Curator App":
+    - "https://www.synapse.org/#!Wiki:syn20681266/ENTITY"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
