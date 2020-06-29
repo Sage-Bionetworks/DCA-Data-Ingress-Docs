@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 2 - Request a Metadata Template
+title: Step 2 - Request a Metadata Template Overview
 nav_order: 3
 has_children: true
 ---
 
-# Step 2 - Request a Metadata Template
+# Step 2 - Request a Metadata Template Overview
 
 At present, the DCC supports a web-based metadata upload via the [Data Curator web app](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) in Synapse. You can generate a metadata template using the app -- note that the template will change depending on your data type. 
 
