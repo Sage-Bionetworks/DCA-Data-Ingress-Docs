@@ -5,6 +5,8 @@ parent: Step 2 - Request a Metadata Template
 nav_order: 2
 ---
 
+## Update Existing Metadata
+
 Use the <a href = "https://www.synapse.org/#!Wiki:syn20681266/ENTITY">Data Curator app</a> to update existing metadata
     
 You have already transfered your dataset to the DCC, and have provided metadata successfully - congratulations! 

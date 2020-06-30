@@ -5,7 +5,7 @@ parent: Step 1 - Upload Your Data to Synapse
 nav_order: 1
 ---
 
-# Contact Your DCC Liaison
+## Contact Your DCC Liaison
 
 Before uploading any data to Synapse, the very first step is to contact your DCC liaison. If you're not sure who your DCC liaison is, you can use the DCC Liaison table (below) to find them.
 
