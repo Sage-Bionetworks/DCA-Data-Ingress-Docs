@@ -6,9 +6,15 @@ grand_parent: Step 1 - Upload Your Data to Synapse
 nav_order: 1
 ---
 
-## Uploading Data Using the Web Interface
+# Uploading Data Using the Web Interface
+
+#### Pre-requisites
+- You are a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users)
+- You have contacted your DCC Liaison and they've provided you with your Synapse Project location
 
 This option would typically be useful for uploading files residing on your local machine to a Synapse cloud storage location. You can follow the steps outlined below to complete a data upload.
+
+## Step-by-Step
 
 1. Navigate to your project, using the Synapse link provided by your DCC liaison
    - If prompted, please login with your Synapse account (or an associated Google account).

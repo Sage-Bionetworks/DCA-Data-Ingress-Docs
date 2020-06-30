@@ -5,7 +5,7 @@ parent: Step 1 - Upload Your Data to Synapse
 nav_order: 3
 ---
 
-## Selecting a Storage Platform
+# Selecting a Storage Platform
 
 The DCC provides dataset storage on the cloud, hosted by __Amazon Web Services (AWS)__ or __Google Cloud (GC)__. 
 Your center may decide where to store datasets depending on existing contracts, dataset location, or other preferences. 

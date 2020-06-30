@@ -8,18 +8,23 @@ nav_order: 2
 
 # Uploading Data Using the Programmatic Interface (Python)
 
-Synapse data upload via a programmatic client
+#### Pre-requisites
+- You are a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users)
+- You have contacted your DCC Liaison and they've provided you with your Synapse Project location
+
+## Step-by-Step
+
 This option would typically be most suitable for upload of files residing on a cloud or your local machine; and in case of uploading large-number and/or large-size files.
 
-You can modify the Python code vignette below for your particular dataset upload. For equivalent functionality in R or CLI, please refer to the Synapse documentation [here](https://docs.synapse.org/articles/getting_started_clients.html). 
+You can modify the Python code vignette below for your particular dataset upload. For equivalent functionality in R or the command line interface, please refer to the [Synapse documentation](https://docs.synapse.org/articles/getting_started_clients.html). 
 
-To get started, first install the Synapse Python client:
+1. To get started, first install the Synapse Python client:
 
 ```bash
 pip install synapseclient
 ```
 
-- To upload a dataset from a local folder to a Synapse storage location, you can modify the script below
+2. To upload a dataset from a local folder to a Synapse storage location, you can modify the script below
 
 ```python
 # the python Synapse client module

@@ -6,7 +6,7 @@ nav_order: 2
 has_children: true
 ---
 
-## Uploading Data
+# Uploading Data
 
 Centers do not need to follow a particular folder hierarchy in the provided cloud storage location.
 
