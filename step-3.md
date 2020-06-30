@@ -68,8 +68,7 @@ Continuing on from [Step 2 - Request a Metadata Template](step-2), you can annot
     ![htan-app-metadata-submission-success](https://user-images.githubusercontent.com/12868382/86077676-3ef36300-ba41-11ea-9f80-1a26855237cb.png)
 
   
-
- #### Please contact your [DCC liaison](dcc-liaison) if you cannot resolve a metadata error; or have questions regarding metadata submission.
+#### Please contact your [DCC liaison](dcc-liaison) if you cannot resolve a metadata error; or have questions regarding metadata submission.
 
 
 ## Verify That Your Metadata Has Successfully Submitted
