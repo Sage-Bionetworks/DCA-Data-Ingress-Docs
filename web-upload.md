@@ -42,3 +42,4 @@ This option would typically be useful for uploading files residing on your local
    ![htaxFilesUploaded](https://user-images.githubusercontent.com/15043209/67430086-5c109180-f596-11e9-9c58-dc7f36c5f134.png)
 
 
+[Next: Step 2- Request a Metadata Template](step-2){: .btn }

@@ -55,3 +55,5 @@ test_entity = syn.store(test_entity)
 test_entity = File('/path/to/data/file1.txt', description='file 2', parent=data_folder)
 test_entity = syn.store(test_entity)
 ```
+
+[Next: Step 2- Request a Metadata Template](step-2){: .btn }
