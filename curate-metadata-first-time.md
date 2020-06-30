@@ -47,3 +47,4 @@ _In this how-to, we'll be using an example `scRNAseq` dataset named `scRNASeq Is
 
 You can fill out the sheet on the web, using dropdowns with allowed values and other standard Google Sheet features.
 
+[Next: Step 3 - Annotate and Submit Your Metadata](step-3){: .btn }
