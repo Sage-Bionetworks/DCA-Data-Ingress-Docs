@@ -34,7 +34,7 @@ _In this how-to, we'll be using an example `scRNAseq` dataset named `scRNASeq Is
 
 
 5. Once you have selected your dataset and metadata template, navigate to the "*Get Metadata Template*" section in the left-hand menu. Select the "*Click to Generate Google Sheets Template*" button. 
-    - This will generate a link to a Google spreadsheet containing an empty template for you to complete with metadata, for each of the files in your dataset. This can take several minutes depending on how many files are in your folder, so please be patient!
+    - This will generate a link to a Google spreadsheet containing an empty template for you to complete with metadata, for each of the files in your dataset. This can take awhile depending on how many files are in your folder, so please be patient!
 
     ![dcc-onboarding-flow-generate-template](https://user-images.githubusercontent.com/12868382/86057211-9aa6f780-ba13-11ea-9430-35a7f1e4c3e2.png)
 
