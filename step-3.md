@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 3 - Annotate and Submit Your Metadata Overview
+title: Step 3 - Annotate and Submit Your Metadata 
 nav_order: 4
 ---
 

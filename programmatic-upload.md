@@ -2,7 +2,7 @@
 layout: default
 title: Uploading Data Using the Programmatic Interface (Python)
 parent: Uploading Data
-grand_parent: Step 1 - Upload Your Data to Synapse Overview
+grand_parent: Step 1 - Upload Your Data to Synapse 
 nav_order: 2
 ---
 

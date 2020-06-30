@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 2 - Request a Metadata Template Overview
+title: Step 2 - Request a Metadata Template
 nav_order: 3
 has_children: true
 ---

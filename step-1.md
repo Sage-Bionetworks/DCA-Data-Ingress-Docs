@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 1 - Upload Your Data to Synapse Overview
+title: Step 1 - Upload Your Data to Synapse 
 nav_order: 2
 has_children: true
 ---
