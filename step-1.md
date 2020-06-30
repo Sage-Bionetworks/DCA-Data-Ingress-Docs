@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 1 - Upload Your Data to Synapse Overview
+title: Step 1 - Upload Your Data to Synapse 
 nav_order: 2
 has_children: true
 ---
@@ -12,3 +12,4 @@ Before you can start adding metadata to your data, you will need to upload your 
 1. Contact your DCC liaison
 2. Upload your dataset to Synapse using the web or programmatic interface
 
+[Next: Contact Your DCC Liaison](dcc-liaison){: .btn }

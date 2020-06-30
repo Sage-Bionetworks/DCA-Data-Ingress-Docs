@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Uploading Data
-parent: Step 1 - Upload Your Data to Synapse
+parent: Step 1 - Upload Your Data to Synapse 
 nav_order: 2
 has_children: true
 ---
 
-## Dataset upload
+# Uploading Data
 
 Centers do not need to follow a particular folder hierarchy in the provided cloud storage location.
 

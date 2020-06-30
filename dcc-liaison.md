@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact Your DCC Liaison
-parent: Step 1 - Upload Your Data to Synapse
+parent: Step 1 - Upload Your Data to Synapse 
 nav_order: 1
 ---
 
@@ -44,7 +44,7 @@ We're ready to begin uploading <your datatype here> for <your center here>. We'd
 <Your signature>
 ```
 
-With the above information, the DCC will initialize your Synapse project and storage location. Once your Synapse project has been initialized, you can upload your data using either the web or programmatic interface. 
+With the above information, the DCC will initialize your Synapse project and storage location. Once your Synapse project has been initialized, your DCC liaison will reach out to you with the location of your Synapse project and you can begin uploading your data using either the web or programmatic interface. 
 
 [Next: Uploading Data](uploading-data){: .btn }
 
