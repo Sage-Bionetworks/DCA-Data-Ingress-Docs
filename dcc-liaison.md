@@ -9,21 +9,7 @@ nav_order: 1
 
 Before uploading any data to Synapse, the very first step is to contact your DCC liaison. If you're not sure who your DCC liaison is, you can use the DCC Liaison table (below) to find them.
 
-|   Center   |  Liaison    |   Contact Person   |   Contact Email   |
-| ---- | ---- | ---- | ---- |
-|   Boston University   | DFCI | Ethan Cerami | cerami@jimmy.harvard.edu |
-|   CHOP   | MSK | Nikolaus Schultz | schultz@cbio.mskcc.org |
-| DFCI | DFCI | Ethan Cerami | cerami@jimmy.harvard.edu |
-| Duke | MSK | Nikolaus Schultz | schultz@cbio.mskcc.org |
-| HMS | Sage | Milen Nikolov | milen.nikolov@sagebase.org |
-| HTAPP | ISB | Vésteinn Þórsson | thorsson@systemsbiology.org |
-| MSK | MSK | Nikolaus Schultz | schultz@cbio.mskcc.org |
-| OHSU | Sage | Milen Nikolov | milen.nikolov@sagebase.org |
-| PCAPP | DFCI | Ethan Cerami | cerami@jimmy.harvard.edu |
-| Stanford | Sage | Milen Nikolov | milen.nikolov@sagebase.org |
-| TNP Sardana | Sage | Brian White | brian.white@sagebase.org |
-| Vanderbilt | ISB | Vésteinn Þórsson | thorsson@systemsbiology.org |
-| WUSTL | Sage | Milen Nikolov | milen.nikolov@sagebase.org |
+![dcc-liaison-contacts](https://user-images.githubusercontent.com/12868382/86181341-af9e8c00-bae2-11ea-8ef0-2a71819d648c.png)
 
 When you reach out to your DCC liaison, let them know the following:
 - Your center
