@@ -13,3 +13,5 @@ aux_links:
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
+# allow linking to headers
+heading_anchors: true
