@@ -6,87 +6,83 @@ nav_order: 4
 
 # Step 3 - Annotate and Submit Your Metadata Overview
 
-Using the Data Ingress App, you can annotate and submit your metadata.
+Continuing with the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY), the metadata:
 
-# TO DO : Add in steps with pictures from F2F here
+- Can be pre-filled when applicable and RFC-defined attributes are included 
+- Can be filled in and stored offline
+- Will be validated & associated with the selected dataset on submission
 
-- Metadata sheet is automatically generated
-- Metadata sheets pre-filled when applicable and RFC-defined attributes are included 
-- Metadata can be filled in and stored offline
-- Metadata is validated & associated with selected dataset on submission
+## Step-by-Step
 
-Filling in the templates:
-![gtemplate Empty](https://user-images.githubusercontent.com/15043209/66961318-41349f00-f023-11e9-9107-466bdab77034.png)
- 
-![gtemplate Filled](https://user-images.githubusercontent.com/15043209/66962305-86f26700-f025-11e9-92dc-254a75ef41f9.png)
+Continuing on from [Step 2 - Request a Metadata Template](step-2), you can annotate and submit your metadata.
 
-Note that you can also save the spreadsheet as a CSV file and use a method of your choice to fill it out. The metadata CSV will be validated by the Data Curator app before submission in any case.
-  
+1. Clicking on the generated template link will open up the template in Google Sheets
 
-Once filled in, you can save your spreadsheet as a CSV (File -> Download -> Comma-separated Value...)
+    ![dcc-onboarding-flow-link-to-template](https://user-images.githubusercontent.com/12868382/86057431-04bf9c80-ba14-11ea-936a-3203ab5bb893.png)
+
+    ![htan-metadata-template](https://user-images.githubusercontent.com/12868382/86075088-0d2bcd80-ba3c-11ea-979d-866460036306.png)
+
+2. You can fill in the templates by selecting the available variables in each cell's dropdown menu. For cells that don't have a drop down, you can type in the appropriate value. 
     
-![gtemplateDLCSV](https://user-images.githubusercontent.com/15043209/66962318-8fe33880-f025-11e9-8426-4ce26de5a2c9.png)
+    ![htan-metadata-template](https://user-images.githubusercontent.com/12868382/86075189-4c5a1e80-ba3c-11ea-9e5f-1b2bc797da2d.png)
+
+3. **Required** metadata is highlighted in light green, whereas optional values are in yellow. _Conditionally required_ elements can also appear as you fill out the template.  
+
+    ![htan-metadata-optional-required](https://user-images.githubusercontent.com/12868382/86075192-4e23e200-ba3c-11ea-9d31-e6da928624a4.png)
 
 
-Next: navigate to the third tab "Submit & Validate Metadata"
-
-![dataCurator SubmitTab](https://user-images.githubusercontent.com/15043209/66962329-95d91980-f025-11e9-9fe4-7c44b0d13d42.png)
-
-
-Upload your saved CSV.
-
-![dataCurator UploadCSV](https://user-images.githubusercontent.com/15043209/66962344-9e315480-f025-11e9-9547-9d5ca3d713ca.png)
-
-
- * If upload was successful, you will see your  metadata entries in the Metadata Preview 
-
-![dataCurator MetadataPrev](https://user-images.githubusercontent.com/15043209/66962357-a5586280-f025-11e9-8eb8-7acfc48a54ef.png)
-
-
->Click "Validate Metadata"
-   
- * If your metadata is valid, you will see a corresponding message and a "Submit" button will become available.
- 
-![dataCurator ValidateSuccess](https://user-images.githubusercontent.com/15043209/66962370-aab5ad00-f025-11e9-890b-8a2b3209c202.png)
-
-* Clicking the "Submit" button confirms that this dataset has been curated according to the relevant DCC  data model. You will receive a link to your metadata in the Synapse system.
-
-![dataCurator SubmitSuccess](https://user-images.githubusercontent.com/15043209/66962379-b1442480-f025-11e9-9407-34dc6e33952d.png)
-
-
-
-If your metadata has been validated and submitted successfully, your metadata will appear in the "Files and Metadata" Table in your Synapse Project.
-
-![Fileview NewAnno](https://user-images.githubusercontent.com/15043209/66963842-98d60900-f029-11e9-83d9-cb81d0842624.png)
-
-
-If you receive an error upon pressing the "Validate Metadata" button, the metadata template-cells causing the error will be highlighted, along with a corresponding list of error details
+    - _**Note**: you can also save the spreadsheet as a CSV file and use a method of your choice to fill it out. The metadata CSV will be validated by the Data Curator app before submission regardless of the method used to fill out the template._
   
-![dataCurator ValidateError](https://user-images.githubusercontent.com/15043209/66964059-4ea15780-f02a-11e9-96ad-cf7e236f0012.png)
 
-* You can edit your file in a Google spreadsheet (click the link following the errors) and re-download it as a CSV or edit your CSV locally, as shown here on Excel.
+4. Once you've filled in the template, you can save your spreadsheet as a CSV (File -> Download -> Comma-separated Values...)
 
-![excel TemplateFixed](https://user-images.githubusercontent.com/15043209/66964181-bbb4ed00-f02a-11e9-95ef-2b8e8c3053fe.png)
-
-* Upload your file and see your metadata updates reflected
-
-![dataCurator UploadFixedFile](https://user-images.githubusercontent.com/15043209/66964212-d38c7100-f02a-11e9-9ce4-68bbac611bfc.png)
-
-* Press the "Validate Metadata" button again
-
-![dataCurator ValidateFixedFile](https://user-images.githubusercontent.com/15043209/66964227-e010c980-f02a-11e9-99f1-b7f06c42c3e5.png)
-
-* If all errors have been resolved, you can submit your validated metadata
-
-![dataCurator SubmitFixedFile](https://user-images.githubusercontent.com/15043209/66964257-f1f26c80-f02a-11e9-90d7-18f9459dab85.png)
-
-* Please contact your DCC liaison if you cannot resolve a metadata error; or have questions regarding metadata submission.
+    ![htan-metadata-download-template](https://user-images.githubusercontent.com/12868382/86076383-c8556600-ba3e-11ea-8b63-e00abe2a9392.png)
 
 
+5. Next, go gack to the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) and navigate to the "Submit & Validate Metadata" step in the left-hand sidebar. 
+
+    ![htan-app-upload-template](https://user-images.githubusercontent.com/12868382/86076568-25e9b280-ba3f-11ea-924f-08367bda785d.png)
 
 
-### Verify That Your Metadata Has Successfully Submitted
+6. Click on the "Browse" button to upload your saved CSV. You will be shown a preview of your file in the panel below the upload bar. 
 
-You can verify that both your dataset and metadata have been successfully submitted to the DCC by navigating to the Synapse project containing your dataset. The link to the project was provided by your DCC liaison in stage 1; the link is also generated by the DataCurator app above, in stage 2, if your metadata submission is successful.
+    ![htan-app-file-preview](https://user-images.githubusercontent.com/12868382/86076670-54678d80-ba3f-11ea-8c16-fb4c9c100aea.png)
 
-If your dataset has been successfully submitted, under the Table tab of your project, there would be a table named 'hta-x-dataset', containing the list of files in your dataset and their metadata.
+
+7. To validate your CSV, click the "**Validate Metadata**" button. 
+
+8. If you receive an error upon pressing the "**Validate Metadata**" button, the metadata template-cells causing the error will be highlighted, along with a corresponding list of error details. You will also get a message letting you know that you can "Edit your data locally or **on Google Sheets**". Clicking "**on Google Sheets**" will re-open the file for you on the web to edit. Once you've resolved the errors, repeat steps 4-7 to validate the updated file. 
+
+    ![htan-app-invalid-metadata](https://user-images.githubusercontent.com/12868382/86077044-1cad1580-ba40-11ea-9765-b5da9d70423e.png)
+
+9. If the template has been filled out correctly, you will see a "**Your metadata is valid!**" message and the "**Submit to Synapse**" button will become clickable.
+
+    ![htan-app-valid-metadata](https://user-images.githubusercontent.com/12868382/86077039-1ae35200-ba40-11ea-9d09-6c147c708364.png)
+
+10. Click on the "**Submit to Synapse**" button.
+
+    ![htan-app-submit-to-synapse](https://user-images.githubusercontent.com/12868382/86077490-e6bc6100-ba40-11ea-8ab0-dd70fea65ac0.png)
+
+11. You will receive a "**Success!**" notification once the metadata has finished uploading to Synapse and confirms that the dataset has been curated according to the relevant DCC  data model. You will also get a link to your metadata file in Synapse. 
+
+    ![htan-app-metadata-submission-success](https://user-images.githubusercontent.com/12868382/86077676-3ef36300-ba41-11ea-9f80-1a26855237cb.png)
+
+  
+
+ #### Please contact your [DCC liaison](dcc-liaison) if you cannot resolve a metadata error; or have questions regarding metadata submission.
+
+
+## Verify That Your Metadata Has Successfully Submitted
+
+You can verify that both your dataset and metadata have been successfully submitted to the DCC by navigating to the Synapse project containing your dataset. The link to the project was provided by your DCC liaison in Step 1.  A link to where your metadata file lives is generated by the Data Curator App upon successful submission of your metadata. 
+
+![htan-app-metadata-manifest-file](https://user-images.githubusercontent.com/12868382/86078958-1faa0500-ba44-11ea-8fb8-06f89e10d099.png)
+
+You can also see your metadata in a table by navigating to the `Tables` tab of your project. There would be a table with your dataset name which you can query and view.
+
+![htan-app-metadata-table](https://user-images.githubusercontent.com/12868382/86078947-1ae55100-ba44-11ea-93d6-c5b6411e5e5a.png)
+
+Congrats!
+{: .label .label-green }
+
+You've successfully uploaded you data and metadata to Synapse!
