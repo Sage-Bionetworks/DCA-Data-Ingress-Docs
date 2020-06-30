@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact Your DCC Liaison
-parent: Step 1 - Upload Your Data to Synapse
+parent: Step 1 - Upload Your Data to Synapse Overview
 nav_order: 1
 ---
 
