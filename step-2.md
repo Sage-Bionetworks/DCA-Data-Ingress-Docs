@@ -14,6 +14,8 @@ At present, the DCC supports a web-based metadata upload via the [Data Curator w
 3. Select your Project (if you have more than one) from the dropdown
 4. Select your Folder from the droipdown. Dataset folders you have access to will be loaded automatically.
 5. Select the template for your dataset. All RFC-defined data types are available.
+6. Navigate to the "*Get Metadata Template*" section in the left-hand menu. Select the "*Click to Generate Google Sheets Template*" button. 
+7. Click on the generated link to open the template on the web. 
 
 
 ![data-curator-request-metadata-template](https://user-images.githubusercontent.com/12868382/85980436-3fcfba80-b997-11ea-9bfe-470886e5de84.png)
@@ -31,4 +33,6 @@ We are working on providing:
    2. An API for programmatic metadata upload and management. 
    
    These will be available in the next release of the DCC data pipeline. Please check with your [DCC liaison](dcc-liaison) on details.
- 
+
+
+ [Next: Step 3 - Annotate and Submit Your Metadata ](step-3){: .btn }
