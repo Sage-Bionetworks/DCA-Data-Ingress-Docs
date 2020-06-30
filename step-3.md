@@ -82,7 +82,6 @@ You can also see your metadata in a table by navigating to the `Tables` tab of y
 
 ![htan-app-metadata-table](https://user-images.githubusercontent.com/12868382/86078947-1ae55100-ba44-11ea-93d6-c5b6411e5e5a.png)
 
-Congrats!
+Congrats! You've successfully uploaded you data and metadata to Synapse!
 {: .label .label-green }
 
-You've successfully uploaded you data and metadata to Synapse!
