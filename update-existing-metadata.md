@@ -20,7 +20,7 @@ Now you'd like to update your metadata in order to:
    * provide metadata for files that have been added to your dataset
 
 
-_In this how-to, we'll be using an example `clinical` dataset named `Clinical Family History` located in a Synapse Project called `HTAN HCA immune cells census`. This dataset already has a dataset that's been annotated with metadata._      
+_In this how-to, we'll be using an example `clinical` dataset named `Clinical Family History` located in a Synapse Project called `HTAN HCA immune cells census`. This is a dataset that's been annotated previously._      
 
 1. Access the [Data Curator app](https://www.synapse.org/#!Wiki:syn20681266/ENTITY)
     - If you are prompted to login to Synapse, please use your Synapse account (or associated Google account).
