@@ -6,6 +6,7 @@ grand_parent: Step 1 - Upload Your Data to Synapse
 nav_order: 2
 ---
 
+# Uploading Data Using the Programmatic Interface (Python)
 
 Synapse data upload via a programmatic client
 This option would typically be most suitable for upload of files residing on a cloud or your local machine; and in case of uploading large-number and/or large-size files.
