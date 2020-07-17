@@ -20,9 +20,9 @@ You can modify the Python code vignette below for your particular dataset upload
 
 1. To get started, first install the Synapse Python client:
 
-```bash
-pip install synapseclient
-```
+    ```bash
+    pip install synapseclient
+    ```
 
 2. To upload a dataset from a local folder to a Synapse storage location, you can modify the script below
 
