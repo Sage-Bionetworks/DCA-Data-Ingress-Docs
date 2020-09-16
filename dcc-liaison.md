@@ -35,13 +35,3 @@ With the above information, the DCC will initialize your Synapse project and sto
 
 *For a more detailed explanation for selecting your storage platform, please refer to the "[Selecting Storage Platform](selecting-a-storage-platform)" section.
 
-Default label {: .label }
-Blue label {: .label .label-blue }
-
-Stable {: .label .label-green }
-
-New release {: .label .label-purple }
-
-Coming soon {: .label .label-yellow }
-
-Deprecated {: .label .label-red }
