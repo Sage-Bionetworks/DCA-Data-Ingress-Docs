@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Uploading Data Using the Programmatic Interface (Python)
+title: Uploading Data Using AWS CLI for Large Data
 parent: Uploading Data
 grand_parent: Step 1 - Upload Your Data to Synapse 
 nav_order: 3
