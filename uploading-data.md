@@ -11,7 +11,9 @@ has_children: true
 Centers may use a hierarchical file structure within their cloud storage location. However, each root (top-level) folder and all of its subfolders **must** contain data of the same type (see details below). This will help separate datasets and make annotating metadata with the data curator app easier for users. 
 
 ## Top Level Folder Names
-Top level folders correspond to the assay and level metadata you will be submitting. For example we have scRNAseq levels 1, 2, 3, 4 and in each RFC there is a corresponding attribute table that is converted into a schema and google spreadsheet for the Data Curator App. This means that there would be top level folders `single_cell_RNAseq_level_1`, `single_cell_RNAseq_level_1`, `single_cell_RNAseq_level_3`, and `single_cell_RNAseq_level_4`
+Top level folders correspond to the assay and level metadata you will be submitting. For example we have scRNAseq levels 1, 2, 3, 4 and in each RFC there is a corresponding attribute table that is converted into a schema and google spreadsheet for the Data Curator App. This means that there would be top level folders `single_cell_RNAseq_level_1`, `single_cell_RNAseq_level_1`, `single_cell_RNAseq_level_3`, and `single_cell_RNAseq_level_4`. We will seed the "basic" top level folders in buckets.
+
+#### Hierarchal example
 
 ```
  .
@@ -25,7 +27,24 @@ Top level folders correspond to the assay and level metadata you will be submitt
     └── fileB.fq
 
 ```
-Your files should be reasonably descriptive in stating the assay type and level and in consistently prefixed with the assay type because they will appear on the Data Curator App in alphanumeric order. e.g. please preface all your clinical folders `clinical_tier_[n]_` so they will show up together instead of `diagnosis_clinical_[n]` and `demographics_clinical_[n]`
+Your files should be reasonably descriptive in stating the assay type and level and in consistently prefixed with the assay type because they will appear on the Data Curator App in alphanumeric order. e.g. please preface all your clinical folders `clinical_tier_[n]_` so they will show up together instead of `diagnosis_clinical_[n]` and `demographics_clinical_[n]`.
+
+Additionally, your top level folder names can explicitly refer to a batch or experiment: 
+
+#### "Flattened" example
+
+```
+ .
+├── biospecimen_tier_1_experiment_1
+├── biospecimen_tier_1_experiment_2
+├── single_cell_level_1_batch_1
+└── single_cell_level_1_batch_2
+
+```
+
+Note that this could create many top level folders, please see the section below about subfolders.
+
+In the [hierarchy case](#hierarchal-example), you would fill in one manifest including all files in experiment/batches; in the ["flattened" case](#flattened-example), you would fill in one manifest for each top level folder.
 
 ## Example Folder Hierarchy (optional)
 
@@ -41,6 +60,8 @@ Subfolders **must** be of the same data type and level as the root folder they a
     ├── batch_1
     └── batch_2
 ```
+
+
 
 ## Data Transfer Methods
 To upload data to your DCC-designated storage location, please use the Synapse platform or `aws`/`gsutil` command-line tools.
