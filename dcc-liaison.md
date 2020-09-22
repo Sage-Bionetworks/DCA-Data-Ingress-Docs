@@ -21,11 +21,10 @@ Here's an email template that you can fill out and send:
 
 ```
 Hello DCC Liaison,
-
 We're ready to begin uploading <your datatype here> for <your center here>. We'd like to use <cloud storage type>. My team members that will be assisting in this process will be:
-- <team member 1 name, team member 1 email>
-- <team member 2 name, team member 2 email>
-- <team member 3 name, team member 3 email>
+- <team member 1 name, e-mail, Synapse username>
+- <team member 2 name, e-mail, Synapse username>
+- <team member 3 name, e-mail, Synapse username>
 
 <Your signature>
 ```
