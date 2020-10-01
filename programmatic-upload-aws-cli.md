@@ -26,7 +26,23 @@ The DCC will create buckets and allow centers access to use the AWS CLI to uploa
 ![bucket_sync_diagram](https://user-images.githubusercontent.com/63608514/93384855-375e8180-f81a-11ea-91d7-400bb7ffa8a8.jpeg)
 
 
+
+
 ### Examples:
+
+**Direct-to-bucket S3 upload**:
+Direct-to-bucket S3 upload requires specific flags for every object. The basic script below copies all files in a specified local directory to a folder in an S3 bucket, and can be modified for more complex folder structures.
+```bash
+#!/bin/bash
+FILES='path/to/dir/*'
+DESTINATION='MyAWSBucket/MyFolder'
+for file in $FILES
+do
+     FILENAME=$(basename $file)
+     BASE64=$(openssl md5 -binary $file | base64)
+     aws s3 cp $file s3://$DESTINATION/$FILENAME --acl bucket-owner-full-control --metadata content-md5=$BASE64
+done
+```
 
 **Using aws s3 cp**: 
 ``` bash
