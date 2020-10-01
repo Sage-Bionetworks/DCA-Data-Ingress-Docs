@@ -33,3 +33,4 @@ Once your data is in the bucket, it will automatically be synced with your cente
 **Note**: If you would like to make changes to your data, please do so directly from the S3 bucket and not from the Synapse web or programmatic clients. Changes made to the bucket will automatically be updated on the Synapse project. 
 
 
+[Next: Step 2- Request a Metadata Template](step-2){: .btn }
