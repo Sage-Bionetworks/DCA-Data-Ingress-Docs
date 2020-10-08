@@ -7,7 +7,8 @@ nav_order: 4
 ---
 
 # Uploading Data to Google Cloud Storage Using gsutil CLI
-Upon request, the DCC will create Google Storage buckets and allow centers access to upload directly to buckets using the gsutil CLI. 
+The DCC will create buckets and allow centers access to use the `gsutil` CLI to upload directly to buckets upon request. This approach is especially useful if there is ~500GB of data or more and you would like the fastest upload speeds.
+For large files, parallel composite uploads may be enabled for faster upload speeds. If this is done, users who download files uploaded as [composite objects](https://cloud.google.com/storage/docs/composite-objects) must have a compiled crcmod installed.
 
 #### Requirements
 - Send your [liaison](dcc-liaison) the email addresses of users who will require upload access to the bucket.
