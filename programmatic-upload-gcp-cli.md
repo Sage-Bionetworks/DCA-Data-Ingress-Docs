@@ -11,6 +11,7 @@ Upon request, the DCC will create Google Storage buckets and allow centers acces
 
 #### Requirements
 - Send your [liaison](dcc-liaison) the email addresses of users who will require upload access to the bucket.
+- The email addresses required for Google bucket access must be Gmail/G suite emails
 
 ## When Uploading Data:
 - Top level folder names may NOT begin with a number
