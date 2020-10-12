@@ -26,6 +26,8 @@ The DCC will create buckets and allow centers access to use the AWS CLI to uploa
 ![bucket_sync_diagram](https://user-images.githubusercontent.com/63608514/93384855-375e8180-f81a-11ea-91d7-400bb7ffa8a8.jpeg)
 
 
+
+
 ### Examples:
 
 **Using aws s3 cp**: 
@@ -46,6 +48,22 @@ aws s3api put-object \
 --acl bucket-owner-full-control 
 ```
 
+**Shell script using aws s3 cp command**:
+The example shell script below copies all files in a local directory to a specified folder in an S3 bucket with the required flags. It can be modified for more complex folder structures.
+```bash
+#!/bin/bash
+FILES='path/to/dir/*'
+DESTINATION='MyAWSBucket/MyFolder'
+for file in $FILES
+do
+     FILENAME=$(basename $file)
+     BASE64=$(openssl md5 -binary $file | base64)
+     aws s3 cp $file s3://$DESTINATION/$FILENAME --acl bucket-owner-full-control --metadata content-md5=$BASE64
+done
+```
+
 Once your data is in the bucket, it will be automatically synced with your center's Synapse project. This process can take anywhere from a few minutes to up to a day depending on the size of your data. Once it is present on Synapse, you can proceed to annotate your metadata, etc. 
 
 **Note**: If you would like to make changes to your data, please do so directly from the S3 bucket and not from the Synapse web or programmatic clients. Changes made to the bucket will automatically be updated on the Synapse project. 
+
+[Next: Step 2- Request a Metadata Template](step-2){: .btn }

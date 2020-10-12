@@ -10,7 +10,7 @@ nav_order: 3
 The DCC provides dataset storage on the cloud, hosted by __Amazon Web Services (AWS)__ or __Google Cloud (GC)__. 
 Your center may decide where to store datasets depending on existing contracts, dataset location, or other preferences. 
 
-The DCC supports dataset transfers to both Amazon and Google clouds via the Synapse platform. If you do not already have an account, [please register for a Synapse account](https://www.synapse.org/#!RegisterAccount:0) using your institutional email address.  
+The DCC supports dataset transfers to both Amazon and Google clouds via the Synapse platform or via `AWS` and `gsutil` command line tools. If you do not already have an account, [please register for a Synapse account](https://www.synapse.org/#!RegisterAccount:0) using your institutional email address.  
 
 [Create a Synapse Account](https://www.synapse.org/#!RegisterAccount:0){: .btn .btn-purple }
 
