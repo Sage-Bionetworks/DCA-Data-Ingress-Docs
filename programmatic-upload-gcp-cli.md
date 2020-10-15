@@ -7,8 +7,7 @@ nav_order: 2
 ---
 
 # Uploading Data to Google Cloud Storage Using gsutil CLI
-The DCC will create buckets and allow centers access to use the `gsutil` CLI to upload directly to buckets upon request. This approach is especially useful if there is ~500GB of data or more and you would like the fastest upload speeds.
-For large files, parallel composite uploads may be enabled for faster upload speeds. If this is done, users who download files uploaded as [composite objects](https://cloud.google.com/storage/docs/composite-objects) must have a compiled crcmod installed.
+Upon request, the DCC will create Google Storage buckets for centers to upload directly to buckets using the `gsutil` CLI.
 
 #### Requirements
 - Send your [liaison](dcc-liaison) the email addresses of users who will require upload access to the bucket.
@@ -16,7 +15,7 @@ For large files, parallel composite uploads may be enabled for faster upload spe
 
 **(IMPORTANT)** When uploading data:
 - Top level folder names may NOT begin with a number
-- Note: Only files uploaded to top level folders will automatically be synced to Synapse (i.e. files at the root level will not be synced)
+- Note: Only files uploaded to [top level folders](organize-your-data-upload) will automatically be synced to Synapse (i.e. files at the root level will not be synced)
 
 ![bucket_sync_diagram](https://user-images.githubusercontent.com/63608514/93384723-1433d200-f81a-11ea-9370-99866c5d00cb.jpeg)
 
