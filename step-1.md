@@ -7,9 +7,11 @@ has_children: true
 
 # Step 1 - Upload Your Data to Synapse Overview
 
-Before you can start adding metadata to your data, you will need to upload your dataset to Synapse. This process is comprised of two main steps:
+Before you can start adding metadata to your data, you will need to upload your dataset to a cloud bucket. This process is comprised of the following items:
 
 1. Contact your DCC liaison
-2. Upload your dataset to Synapse using the web or programmatic interface
+2. Choose your cloud storage platform
+3. Organize your data
+4. Upload your dataset to your selected cloud bucket
 
-[Next: Contact Your DCC Liaison](dcc-liaison){: .btn }
+
