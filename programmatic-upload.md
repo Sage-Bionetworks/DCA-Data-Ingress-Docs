@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Uploading Data Using the Programmatic Interface (Python)
+title: Uploading Data Using Python
 parent: Uploading Data
 grand_parent: Step 1 - Upload Your Data to Synapse 
-nav_order: 2
+nav_order: 3
 ---
 
-# Uploading Data Using the Programmatic Interface (Python)
+# Uploading Data Using Python
 
-#### Pre-requisites
+#### Requirements
 - You are a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users)
 - You have contacted your DCC Liaison and they've provided you with your Synapse Project location
 
@@ -56,4 +56,4 @@ test_entity = File('/path/to/data/file1.txt', description='file 2', parent=data_
 test_entity = syn.store(test_entity)
 ```
 
-[Next: Step 2- Request a Metadata Template](step-2){: .btn }
+
