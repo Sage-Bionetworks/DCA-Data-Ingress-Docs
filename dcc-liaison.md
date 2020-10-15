@@ -14,7 +14,7 @@ Before uploading any data to Synapse, the very first step is to contact your DCC
 When you reach out to your DCC liaison, let them know the following:
 - Your center
 - Your datatype
-- Your desired cloud storage (AWS, GCS)*
+- [Your desired cloud storage (AWS, GCS)](choose-your-cloud-storage-platform)
 - Who on your team will be doing the data upload
 
 Here's an email template that you can fill out and send:
@@ -29,9 +29,6 @@ We're ready to begin uploading <your datatype here> for <your center here>. We'd
 <Your signature>
 ```
 
-With the above information, the DCC will initialize your Synapse project and storage location. Once your Synapse project has been initialized, your DCC liaison will reach out to you with the location of your Synapse project and you can begin uploading your data using either the web or programmatic interface. 
+With the above information, the DCC will initialize your Synapse project and storage location. Once your Synapse project has been initialized, your DCC liaison will reach out to you with the location of your Synapse project and you can begin uploading your data.
 
-[Next: Uploading Data](uploading-data){: .btn }
-
-*For a more detailed explanation for selecting your storage platform, please refer to the "[Selecting Storage Platform](selecting-a-storage-platform)" section.
 
