@@ -20,8 +20,8 @@ The DCC will create buckets for centers to use the AWS CLI to upload directly to
      - The base64-encoded md5 of a file can be obtained using the command 
 `openssl md5 -binary PATH/TO/FILE | base64`
      - Providing an md5 for files <25GB is also encouraged. This will decrease the time needed to sync the file to Synapse
-- Top-level folder names may NOT begin with a number
-- Note: Only files uploaded to root (top level) folders will automatically be synced to Synapse (i.e. files at the root level will not be synced)
+- Top level folder names may NOT begin with a number
+Note: Only files uploaded to [top level folders](organize-your-data-upload) will automatically be synced to Synapse (i.e. files at the root level will not be synced)
 
 ![bucket_sync_diagram](https://user-images.githubusercontent.com/63608514/93384855-375e8180-f81a-11ea-91d7-400bb7ffa8a8.jpeg)
 
@@ -66,4 +66,4 @@ Once your data is in the bucket, it will be automatically synced with your cente
 
 **Note**: If you would like to make changes to your data, please do so directly from the S3 bucket and not from the Synapse web or programmatic clients. Changes made to the bucket will automatically be updated on the Synapse project. 
 
-[Next: Step 2- Request a Metadata Template](step-2){: .btn }
+
