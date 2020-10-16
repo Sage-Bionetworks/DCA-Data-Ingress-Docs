@@ -13,7 +13,6 @@ Before uploading any data to Synapse, the very first step is to contact your DCC
 
 When you reach out to your DCC liaison, let them know the following:
 - Your center
-- Your datatype
 - [Your desired cloud storage (AWS, GCS)](choose-your-cloud-storage-platform)
 - Who on your team will be doing the data upload
 
