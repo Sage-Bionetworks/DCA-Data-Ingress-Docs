@@ -12,7 +12,7 @@ has_children: true
 
 The DCC will create buckets in AWS or Google Cloud Storage for you once you have let your DCC liaison know which storage platform you would like to use. The DCC will allow centers to upload directly to these buckets. This approach is especially useful if there is 500GB+ of data and you would like the fastest upload speeds. Object permissions and other flags are necessary to allow the files to be automatically synced onto Synapse. For additional information, please read the Intro to Cloud Buckets article and reach out to your DCC liaison. 
 
-## Choosing a Cloud Platform
+## [Choosing a Cloud Platform](choose-your-cloud-storage-platform)
 
 We suggest AWS S3 but also support GCS buckets as well, however there may be possible processing delays from moving internal data from the GCS bucket to the virtual machines on AWS. 
 
@@ -22,7 +22,7 @@ If you are uploading 500GB or more, the DCC recommends using the AWS or gsutil c
 
 Some of the more typical options are described in the following sections. Each option is  linked to relevant documentation for additional details and has representative use cases.
 
-## Programmatic Upload to AWS S3 Using AWS CLI
+## [Programmatic Upload to AWS S3 Using AWS CLI](programmatic-upload-aws-cli)
 
 Upon request, the DCC will create AWS S3 buckets for centers to upload directly to buckets using the AWS CLI.
 
@@ -37,7 +37,7 @@ Upon request, the DCC will create AWS S3 buckets for centers to upload directly 
 - if your center's data is already stored on AWS, select AWS as your storage option and also provide your AWS storage region
 
 
-### Programmatic Upload to GCS Using gsutil CLI
+## [Programmatic Upload to GCS Using gsutil CLI](programmatic-upload-gcp-cli)
 
 Upon request, the DCC will create Google Storage buckets for centers upload directly to buckets using the gsutil CLI.
 
