@@ -1,76 +1,50 @@
 ---
 layout: default
 title: Uploading Data
-parent: Step 1 - Upload Your Data to Synapse 
-nav_order: 2
+parent: Step 1 - Upload Your Data 
+nav_order: 4
 has_children: true
 ---
 
 # Uploading Data
 
-Centers may use a hierarchical file structure within their cloud storage location. However, each root (top-level) folder and all of its subfolders **must** contain data of the same type (see details below). This will help separate datasets and make annotating metadata with the data curator app easier for users. 
+## Uploading Large Data
 
-## Top Level Folder Names
-Top level folders correspond to the assay and level metadata you will be submitting. For example we have scRNAseq levels 1, 2, 3, 4 and in each RFC there is a corresponding attribute table that is converted into a schema and google spreadsheet for the Data Curator App. This means that there would be top level folders `single_cell_RNAseq_level_1`, `single_cell_RNAseq_level_1`, `single_cell_RNAseq_level_3`, and `single_cell_RNAseq_level_4`. We will seed the "basic" top level folders in buckets.
+The DCC will create buckets in AWS or Google Cloud Storage for you once you have let your DCC liaison know which storage platform you would like to use. The DCC will allow centers to upload directly to these buckets. This approach is especially useful if there is 500GB+ of data and you would like the fastest upload speeds. Object permissions and other flags are necessary to allow the files to be automatically synced onto Synapse. For additional information, please read the Intro to Cloud Buckets article and reach out to your DCC liaison. 
 
-#### Hierarchal example
+## [Choosing a Cloud Platform](choose-your-cloud-storage-platform)
 
-```
- .
-├── clinical_tier_1_diagnosis
-├── clinical_tier_1_demographics
-├── biospecimen_tier_1
-│   ├── file1.txt
-│   └── file2.txt
-└── single_cell_RNAseq_level_1
-    ├── fileA.fq
-    └── fileB.fq
-
-```
-Your files should be reasonably descriptive in stating the assay type and level and in consistently prefixed with the assay type because they will appear on the Data Curator App in alphanumeric order. e.g. please preface all your clinical folders `clinical_tier_[n]_` so they will show up together instead of `diagnosis_clinical_[n]` and `demographics_clinical_[n]`.
-
-Additionally, your top level folder names can explicitly refer to a batch or experiment: 
-
-#### "Flattened" example
-
-```
- .
-├── biospecimen_tier_1_experiment_1
-├── biospecimen_tier_1_experiment_2
-├── single_cell_level_1_batch_1
-└── single_cell_level_1_batch_2
-
-```
-
-Note that this could create many top level folders, please see the section below about subfolders.
-
-In the [hierarchy case](#hierarchal-example), you would fill in one manifest including all files in experiment/batches; in the ["flattened" case](#flattened-example), you would fill in one manifest for each top level folder.
-
-## Example Folder Hierarchy (optional)
-
-Subfolders **must** be of the same data type and level as the root folder they are contained in. For example you can _not_ put a biospecimen Tier 1 and clinical demographics Tier 1 subfolder within the same folder. 
-```
-.
-├── clinical_tier_1_diagnosis
-├── clinical_tier_1_demographics
-├── biospecimen_tier_1
-│   ├── experiment_1
-│   └── experiment_2
-└── single_cell_level_1
-    ├── batch_1
-    └── batch_2
-```
-
-
+We suggest AWS S3 but also support GCS buckets as well, however there may be possible processing delays from moving internal data from the GCS bucket to the virtual machines on AWS. 
 
 ## Data Transfer Methods
-To upload data to your DCC-designated storage location, please use the Synapse platform or `aws`/`gsutil` command-line tools.
 
-Depending on dataset size and other preferences, you may utilize web-based or programmatic data upload interfaces. Some of the more typical options are described in the following sections, along with links to relevant documentation for more detail and the typical usecase for each. 
+If you are uploading 500GB or more, the DCC recommends using the AWS or gsutil command-line tools. If you prefer to use Synapse (either web-based or programmatic data upload interfaces), please contact your liaison. 
+
+Some of the more typical options are described in the following sections. Each option is  linked to relevant documentation for additional details and has representative use cases.
+
+## [Programmatic Upload to AWS S3 Using AWS CLI](programmatic-upload-aws-cli)
+
+Upon request, the DCC will create AWS S3 buckets for centers to upload directly to buckets using the AWS CLI.
+
+#### REQUIREMENTS (BEFORE TRANSFERRING DATA):
+
+- Send your liaison the [IAM ARNs](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html#identifiers-arns) of the users who will require upload access to the buckets. ARNs look like this: `arn:aws:iam::123456789012:user/JohnDoe` (for additional information see: [IAM ARNs docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html#identifiers-arns))
 
 
+### Choosing AWS S3 Bucket Storage:
 
-[Go to Web Upload Instructions](web-upload){: .btn }
+- if your center's data is already stored on premises/local machines, select AWS as your storage option
+- if your center's data is already stored on AWS, select AWS as your storage option and also provide your AWS storage region
 
-[Go to Programmatic Upload Instructions (Python)](programmatic-upload){: .btn }
 
+## [Programmatic Upload to GCS Using gsutil CLI](programmatic-upload-gcp-cli)
+
+Upon request, the DCC will create Google Storage buckets for centers upload directly to buckets using the gsutil CLI.
+
+#### REQUIREMENTS
+
+- Send your liaison the Google mail addresses of users who will require upload access to the bucket.
+
+Choosing Google Cloud Storage:
+- if your center's data is already stored on Google Cloud, select Google Cloud as your storage option
+ 

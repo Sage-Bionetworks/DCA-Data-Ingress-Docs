@@ -90,5 +90,5 @@ _In this how-to, we'll be using an example `clinical` dataset named `Clinical Fa
 
 
 
-**Please contact your [DCC liaison](dcc-liaison) if you cannot resolve a metadata error; or have questions regarding metadata updates and submission.**
+**Please contact your [DCC liaison](dcc-liaison) if you cannot resolve a metadata error or have questions regarding metadata updates and submission.**
 

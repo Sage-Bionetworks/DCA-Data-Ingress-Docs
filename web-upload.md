@@ -2,15 +2,15 @@
 layout: default
 title: Uploading Data Using the Web Interface
 parent: Uploading Data
-grand_parent: Step 1 - Upload Your Data to Synapse 
-nav_order: 1
+grand_parent: Step 1 - Upload Your Data 
+nav_order: 4
 ---
 
 # Uploading Data Using the Web Interface
 
-#### Pre-requisites
+#### Requirements
 - You are a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users)
-- You have contacted your DCC Liaison and they've provided you with your Synapse Project location
+- You have contacted your [DCC Liaison](dcc-liaison) and they've provided you with your Synapse Project location
 
 This option would typically be useful for uploading files residing on your local machine to a Synapse cloud storage location. You can follow the steps outlined below to complete a data upload.
 
@@ -42,4 +42,3 @@ This option would typically be useful for uploading files residing on your local
    ![htaxFilesUploaded](https://user-images.githubusercontent.com/15043209/67430086-5c109180-f596-11e9-9c58-dc7f36c5f134.png)
 
 
-[Next: Step 2- Request a Metadata Template](step-2){: .btn }
