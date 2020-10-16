@@ -36,4 +36,3 @@ For large files, parallel composite uploads may be enabled for faster upload spe
 Once your data is in the bucket, it will automatically be synced with your center’s Synapse project. This process can take anywhere from a few minutes to up to a day depending on the size of your data. Once it is present on Synapse, you can proceed to annotate your metadata.
 
 **Note**: If you would like to make changes to your data, please do so directly from the Google Storage Bucket and not from the Synapse web or programmatic clients. Changes made to the bucket will automatically be updated on the Synapse project. 
-
