@@ -1,22 +1,21 @@
 ---
 layout: default
-title: Uploading Data to Google Cloud Storage Using gsutil CLI
+title: Uploading Data Using the gsutil CLI to Google Cloud Storage 
 parent: Uploading Data
-grand_parent: Step 1 - Upload Your Data to Synapse 
-nav_order: 4
+grand_parent: Step 1 - Upload Your Data 
+nav_order: 2
 ---
 
-# Uploading Data to Google Cloud Storage Using gsutil CLI
-The DCC will create buckets and allow centers access to use the `gsutil` CLI to upload directly to buckets upon request. This approach is especially useful if there is ~500GB of data or more and you would like the fastest upload speeds.
-For large files, parallel composite uploads may be enabled for faster upload speeds. If this is done, users who download files uploaded as [composite objects](https://cloud.google.com/storage/docs/composite-objects) must have a compiled crcmod installed.
+# Uploading Data to Google Cloud Storage Using gsutil CLI (recommended for large data) 
+Upon request, the DCC will create Google Storage buckets for centers to upload directly to buckets using the `gsutil` CLI.
 
 #### Requirements
 - Send your [liaison](dcc-liaison) the email addresses of users who will require upload access to the bucket.
 - The email addresses required for Google bucket access must be Gmail/G suite emails
 
-## When Uploading Data:
+**(IMPORTANT)** When uploading data:
 - Top level folder names may NOT begin with a number
-- Note: Only files uploaded to top level folders will automatically be synced to Synapse (i.e. files at the root level will not be synced)
+- Note: Only files uploaded to [top level folders](organize-your-data-upload) will automatically be synced to Synapse (i.e. files at the root level will not be synced)
 
 ![bucket_sync_diagram](https://user-images.githubusercontent.com/63608514/93384723-1433d200-f81a-11ea-9370-99866c5d00cb.jpeg)
 
@@ -30,9 +29,7 @@ For large files, parallel composite uploads may be enabled for faster upload spe
 
 `gsutil rsync -r dir gs://MyBucket/MyFolder/dir`
 
-Once your data is in the bucket, it will automatically be synced with your center's Synapse project within a few minutes or up to a day depending on the size of your data. Once it is present on Synapse, you can proceed to annotate your metadata, etc. 
+Once your data is in the bucket, it will automatically be synced with your center’s Synapse project. This process can take anywhere from a few minutes to up to a day depending on the size of your data. Once it is present on Synapse, you can proceed to annotate your metadata.
 
 **Note**: If you would like to make changes to your data, please do so directly from the Google Storage Bucket and not from the Synapse web or programmatic clients. Changes made to the bucket will automatically be updated on the Synapse project. 
 
-
-[Next: Step 2- Request a Metadata Template](step-2){: .btn }
