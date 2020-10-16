@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Organize Your Data Upload
-parent: Step 1 - Upload Your Data to Synapse 
+parent: Step 1 - Upload Your Data 
 nav_order: 3
 ---
 

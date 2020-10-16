@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Uploading Data Using the gsutil CLI to Google Cloud Storage (recommended for large data) 
+title: Uploading Data Using the gsutil CLI to Google Cloud Storage 
 parent: Uploading Data
-grand_parent: Step 1 - Upload Your Data to Synapse 
+grand_parent: Step 1 - Upload Your Data 
 nav_order: 2
 ---
 
-# Uploading Data to Google Cloud Storage Using gsutil CLI
+# Uploading Data to Google Cloud Storage Using gsutil CLI (recommended for large data) 
 Upon request, the DCC will create Google Storage buckets for centers to upload directly to buckets using the `gsutil` CLI.
 
 #### Requirements

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Uploading Data Using the AWS CLI (recommended for large data) 
+title: Uploading Data Using the AWS CLI  
 parent: Uploading Data
-grand_parent: Step 1 - Upload Your Data to Synapse 
+grand_parent: Step 1 - Upload Your Data 
 nav_order: 1
 ---
 
-# Uploading Data Using the AWS CLI
+# Uploading Data Using the AWS CLI (recommended for large data)
 
 The DCC will create buckets for centers to use the AWS CLI to upload directly to buckets Below are requirements and necessary instructions such as object permissions and other flags for files to be automatically synced onto Synapse.
 

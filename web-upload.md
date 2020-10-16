@@ -2,7 +2,7 @@
 layout: default
 title: Uploading Data Using the Web Interface
 parent: Uploading Data
-grand_parent: Step 1 - Upload Your Data to Synapse 
+grand_parent: Step 1 - Upload Your Data 
 nav_order: 4
 ---
 

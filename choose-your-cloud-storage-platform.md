@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Choose Your Cloud Storage Platform
-parent: Step 1 - Upload Your Data to Synapse 
+parent: Step 1 - Upload Your Data 
 nav_order: 2
 ---
 
