@@ -43,7 +43,7 @@ Upon request, the DCC will create Google Storage buckets for centers upload dire
 
 #### REQUIREMENTS
 
-- Send your liaison the Google mail addresses of users who will require upload access to the bucket.
+- Send your liaison the Google identities of users who will require upload access to the bucket.  (A Google identity can be either a Gmail address or any institutional email that uses Google Workspace, formerly known as G Suite.)
 
 Choosing Google Cloud Storage:
 - if your center's data is already stored on Google Cloud, select Google Cloud as your storage option
