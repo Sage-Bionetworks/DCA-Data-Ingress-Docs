@@ -9,7 +9,7 @@ nav_order: 3
 
 Centers may use a hierarchical file structure within their cloud storage location. However, each top-level folder (also referred to as the root folder) and all of its subfolders **must** contain data of the same type (see details below). This will make annotating metadata with the data curator app easier for users since one metadata template will be submitted for each folder.
 
- ## Top Level Folder Names
+## Top Level Folder Names
 
 Top level folders correspond to the assay and level metadata you will be submitting. For example, we have `scRNAseq levels 1`, `2`, `3`, `4` and in each RFC the corresponding attribute table is converted into a schema and generates a  google spreadsheet for the Data Curator App. See below for examples. 
 
