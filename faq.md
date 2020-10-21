@@ -141,7 +141,7 @@ A: The [HTAN Working Groups](https://www.synapse.org/#!Synapse:syn17022193/wiki/
 <br/>
 
 Q: Is there an API for submitting metadata?
-A: Data submitters can use a python package to submit data via API. Documentation is available [here](). A web service API is also in development and more details will be available soon. 
+A: Data submitters can use a python package to submit data via API. Documentation will be made available here in the near future. A web service API is also in development and more details will be available soon. 
 
 <br/>
 
