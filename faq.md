@@ -100,7 +100,7 @@ A: Please follow the standard operating procedures for data upload: [Data Ingres
 
 Q: What format does my data need to be in for submission? E.g do I need to organize my \<dataset type> dataset in a specific file/folder hierarchy?
 
-A: The topmost level folder needs to be descriptive because it will be used in the Data Ingress Service. Your data can be in any format or hierarchy under that folder. 
+A: The topmost level folder needs to be descriptive because it will be used in the Data Ingress Service. Your data can be in any format or hierarchy under that folder. For additional details and examples, please see the [Organize Your Data Upload article](organize-your-data-upload).
 
 <br/>
 
