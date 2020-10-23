@@ -130,7 +130,35 @@ A: This depends on your internet bandwidth, where your data is located, your int
 
 Q: How should I keep track of my tissue samples and associated data? Is there an identifier schema I need to follow?
 
-A: Please follow the sample identifier standard operating procedure: [HTAN Identifiers SOP](https://bit.ly/htan_ids).
+A: Please follow the sample identifier standard operating procedure: [HTAN Identifiers SOP](https://bit.ly/htan_ids) and the [RFC HTAN Identifiers](https://docs.google.com/document/d/1K6jjWQdvtGRKUMmjC7jvt69hd3CbnSyryVWpNJVndDA/edit?pli=1#). 
+
+Each HTAN entity will be uniquely identified by an HTAN identifier.
+
+HTAN will support two formats for biological identifiers: one for research participants, and the other for biospecimens and data-files (both of which are considered derived entities).
+
+Identifier formats are defined (using [Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)) as:
+
+```
+<participant_id>	::= <htan_center_id>_integer
+<htan_center_id>	::= (see Table 1 in the HTAN Identifiers SOP)
+
+<biospecimen_id>	::= <participant_id>_integer
+<datafile_id>		::= <participant_id>_integer
+```
+for example:
+
+```
+Participant ID:  	HTA1_12
+Biospecimen ID:  	HTA1_12_1
+Data File ID: 		HTA1_12_3
+```
+
+By using the above schema, each atlas will be **responsible for creating and controlling identifiers within their namespace** (defined by each unique HTAN center ID prefix), and there will be **no central DCC-managed identifier-generation service**.
+
+
+Note that identifiers must be unique, and must follow the specification described above.  No metadata should be “encoded” into the identifier -- any information that is important should be captured explicitly in the metadata submitted with each biospecimen and datafile.  If one or more necessary metadata fields were not identified in the original RFC process, they should be added in a subsequent iteration. 
+
+In order to ensure uniqueness of HTAN identifiers within a multi-center collaboration, one viable approach is for each center to be assigned a “block” of identifiers -- for example, center #7 could be assigned all identifiers between `HTA13_2_7000` and `HTA13_2_7999`.  If that center requires additional identifiers, another block could be allocated, eg: `HTA13_2_17000` through `HTA13_2_17999`.
 
 <br/>
 
