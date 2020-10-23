@@ -8,19 +8,19 @@ nav_order: 5
 
 Q: What do we need to do to copy data to the DCC?
 
-A: Contact your center liaison so we understand your specific needs, upload your release-ready data with a descriptive top-level folder name, and iteratively annotate and validate your data as new metadata standards are released by the working groups with the [Data Curator App[(https://www.synapse.org/#!Wiki:syn20681266/ENTITY)] or the API. Here is the [Data Ingress SOP](https://github.com/Sage-Bionetworks/HTAN-data-ingress-documentation-draft/blob/master/DOCUMENTATION.md) in detail.    
+A: Contact your center liaison so we understand your specific needs, upload your release-ready data with a descriptive top-level folder name, and iteratively annotate and validate your data as new metadata standards are released by the working groups with the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY)] or the API. Details on how to upload your data can be found in the [Step 1 - Upload Your Data](step-1) section of these docs.     
 
 <br/>
 
 Q: Can we use a programmatic client?
 
-A: Yes, please refer to ‘Synapse data via a programmatic client’ in the [Data Ingress SOP](https://github.com/Sage-Bionetworks/HTAN-Data-Ingress-Docs/blob/master/DOCUMENTATION.md).
+A: Yes, please refer to the programmatic articles under the [Uploading Data](uploading-data) section in these docs.
 
 <br/>
 
 Q: Where will the data be stored and how will the DCC maintain security?
 
-A: Follow the data storage protocols on the [Data Ingress SOP](https://github.com/Sage-Bionetworks/HTAN-Data-Ingress-Docs/blob/master/DOCUMENTATION.md), where we have options for storage on Synapse and other cloud services.  All data will be encrypted at rest and in transit. Strict access control mechanisms will be maintained by the DCC.
+A: Follow the data storage protocols on the [Choose Your Cloud Storage Platform](choose-your-cloud-storage-platform) article, where we have options for storage on Synapse and other cloud services.  All data will be encrypted at rest and in transit. Strict access control mechanisms will be maintained by the DCC.
 
 <br/>
 
@@ -94,7 +94,7 @@ A: You can use Synapse's internal docker registry, or you can link to a docker r
 
 Q: How do I upload a \<dataset type> dataset?
 
-A: Please follow the standard operating procedures for data upload: [Data Ingress SOP](https://github.com/Sage-Bionetworks/HTAN-data-ingress-documentation-draft/blob/master/DOCUMENTATION.md).
+A: Please follow the steps for for data upload: [Step 1 - Upload Your Data](step-1).
 
 <br/>
 
