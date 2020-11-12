@@ -176,7 +176,14 @@ A: Data submitters can use a python package to submit data via API. Documentatio
 Q: Will the DCC rename files for each data release?
 
 A: File display names will be renamed to maintain consistency within the data portal. These display names will appear in Synapse and the data portal, and will be reflected in downloaded files. The original filename will be preserved in your project’s cloud bucket. 
+
 <br/>
+
+Q: Should large imaging files be compressed?
+
+A: Yes, please compress larger files. The DCC accepts most file compression types, though lossless compression formats such as LZW are preferred.
+
+</br>
 
 ## Data User
 
