@@ -26,7 +26,7 @@ Continuing on from [Step 2 - Request a Metadata Template](step-2), you can annot
     
     ![htan-metadata-template](https://user-images.githubusercontent.com/12868382/86075189-4c5a1e80-ba3c-11ea-9e5f-1b2bc797da2d.png)
 
-3. **Required** metadata is highlighted in light green, whereas optional values are in yellow. _Conditionally required_ elements can also appear as you fill out the template.  
+3. **Required** metadata is highlighted in light blue, whereas optional values are in yellow. _Conditionally required_ elements can also appear as you fill out the template.  
 
     ![htan-metadata-optional-required](https://user-images.githubusercontent.com/12868382/86075192-4e23e200-ba3c-11ea-9d31-e6da928624a4.png)
 
