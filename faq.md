@@ -8,7 +8,7 @@ nav_order: 5
 
 Q: What do we need to do to copy data to the DCC?
 
-A: Contact your center liaison so we understand your specific needs, upload your release-ready data with a descriptive top-level folder name, and iteratively annotate and validate your data as new metadata standards are released by the working groups with the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY)] or the API. Details on how to upload your data can be found in the [Step 1 - Upload Your Data](step-1) section of these docs.     
+A: Contact your center liaison so we understand your specific needs, upload your release-ready data with a descriptive top-level folder name, and iteratively annotate and validate your data as new metadata standards are released by the working groups with the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) or the API. Details on how to upload your data can be found in the [Step 1 - Upload Your Data](step-1) section of these docs.     
 
 <br/>
 
@@ -183,7 +183,7 @@ Q: Should large imaging files be compressed?
 
 A: Yes, please compress larger files. The DCC accepts most file compression types, though lossless compression formats such as LZW are preferred.
 
-</br>
+<br/>
 
 ## Data User
 
