@@ -15,7 +15,7 @@ The DCC will create buckets for centers to use the AWS CLI to upload directly to
 - Send your [liaison](dcc-liaison) the [IAM ARNs](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html#identifiers-arns) of the users who will require upload access to the buckets. ARNs look like this: `arn:aws:iam::123456789012:user/JohnDoe` (for additional information see: [IAM ARNs docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html#identifiers-arns))
 
 **(IMPORTANT)** When uploading data:
-- When moving files to the bucket, allow the bucket owner full control of the object by including the `--acl bucket-owner-full control` flag (see [examples](#examples) below)
+- When moving files to the bucket, allow the bucket owner full control of the object by including the `--acl bucket-owner-full-control` flag (see [examples](#examples) below)
 - If your file is **>25GB**, we **require** a base64-encoded md5 as a metadata tag `content-md5` (see [examples](#examples) below)
      - The base64-encoded md5 of a file can be obtained using the command 
 `openssl md5 -binary PATH/TO/FILE | base64`
