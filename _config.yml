@@ -24,11 +24,11 @@ custom:
   # They're included here to highlight placeholders in the demo.
   community: "{HTAN}"
   email_requirements:
-    - Your center/institution name
-    - Who on your team will be doing the data upload
+    - "{Your center/institution name}"
+    - "{Who on your team will be doing the data upload}"
   email_template: |
-    We're ready to begin uploading `<data type X>` for 
-    `<center/institution A>`.
+    {We're ready to begin uploading `<data type X>` for 
+    `<center/institution A>`.}
   # Toggles that determine what content to be presented (true/false).
   custom_cloud_storage: false
 
