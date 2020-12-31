@@ -19,6 +19,14 @@ When you reach out to your DCC liaison, let them know the following:
 
 Here's an email template that you can fill out and send:
 
-{{ site.custom.email_template }}
+> Hello DCC Liaison,
+
+> We're ready to begin uploading {YOUR DATATYPE} for 
+> {YOUR CENTER}. We'd like to use {YOUR CLOUD STORAGE}. 
+> My team members that will be assisting in this process will be:
+
+> - {TEAM MEMBER 1 NAME}, {EMAIL}, {SYNAPSE USERNAME}
+> - {TEAM MEMBER 2 NAME}, {EMAIL}, {SYNAPSE USERNAME}
+> - {TEAM MEMBER 3 NAME}, {EMAIL}, {SYNAPSE USERNAME}
 
 With the above information, the DCC will initialize your Synapse project and storage location. Once your Synapse project has been initialized, your DCC liaison will reach out to you with the location of your Synapse project and you can begin uploading your data.

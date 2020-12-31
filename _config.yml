@@ -19,24 +19,13 @@ aux_links:
 # Important: Omit any curly braces when updating the values
 custom:
   community: "{HTAN}"
-  # The '>' are there to create a blockquote in Markdown
-  # We recommend you use use a similar format
-  email_template: |
-    > Hello DCC Liaison,
 
-    > We're ready to begin uploading {YOUR DATATYPE} for 
-    > {YOUR CENTER}. We'd like to use {YOUR CLOUD STORAGE}. 
-    > My team members that will be assisting in this process will be:
+# Replace the files in the 'images/' folder, especially the following:
 
-    > - {TEAM MEMBER 1 NAME}, {EMAIL}, {SYNAPSE USERNAME}
-    > - {TEAM MEMBER 2 NAME}, {EMAIL}, {SYNAPSE USERNAME}
-    > - {TEAM MEMBER 3 NAME}, {EMAIL}, {SYNAPSE USERNAME}
-
-# Replace the files in the 'images/' folder or update the file paths below
-images:
-  # Displaying email as image to avoid getting caught in spam lists
-  # Consider using: https://www.generateit.net/email-to-image/index.php
-  email: "/images/email.png"
+# images/email.png
+# ~~~~~~~~~~~~~~~~
+# Displaying email as image to avoid getting caught in spam lists
+# Consider using: https://www.generateit.net/email-to-image/index.php
 
 
 # DO NOT EDIT BELOW THIS LINE -------------------------------------------------
