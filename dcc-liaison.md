@@ -9,7 +9,7 @@ nav_order: 1
 
 Before uploading any data to Synapse, the very first step is to contact your DCC liaison. If you're not sure who your DCC liaison is, you can use the DCC Liaison table (below) to find them.
 
-![dcc-liaison-contacts]({{ site.images.email }}){: .email-image}
+![dcc-liaison-contacts](images/email.png){: .email-image}
 
 When you reach out to your DCC liaison, let them know the following:
 
