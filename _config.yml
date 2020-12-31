@@ -1,17 +1,61 @@
-# display title and description
-title: HTAN Data Ingress Docs
-description: Data ingress how-to docs for the HTAN community 
+# Top-level configuration fields ----------------------------------------------
 
-# the remote theme that's being used
+# These are fields that are defined in the Jekyll or theme documentation
+
+# The title appears in a few places
+title: "Data Ingress Docs"
+
+# Auxiliary links appear at the top right of every page
+# Update the URL to wherever the Data Curator is hosted
+aux_links:
+  "Go To Data Curator":
+    - "https://shinypro.synapse.org/users/bgrande/data_curator_demo/"
+
+
+# Project-specific placeholder variables --------------------------------------
+
+# Defined under 'custom' subfield to avoid clashes with top-level fields
+
+# Important: Omit any curly braces when updating the values
+custom:
+  community: "{HTAN}"
+  # The '>' are there to create a blockquote in Markdown
+  # We recommend you use use a similar format
+  email_template: |
+    > Hello DCC Liaison,
+
+    > We're ready to begin uploading {YOUR DATATYPE} for 
+    > {YOUR CENTER}. We'd like to use {YOUR CLOUD STORAGE}. 
+    > My team members that will be assisting in this process will be:
+
+    > - {TEAM MEMBER 1 NAME}, {EMAIL}, {SYNAPSE USERNAME}
+    > - {TEAM MEMBER 2 NAME}, {EMAIL}, {SYNAPSE USERNAME}
+    > - {TEAM MEMBER 3 NAME}, {EMAIL}, {SYNAPSE USERNAME}
+
+# Replace the files in the 'images/' folder or update the file paths below
+images:
+  # Displaying email as image to avoid getting caught in spam lists
+  # Consider using: https://www.generateit.net/email-to-image/index.php
+  email: "/images/email.png"
+
+
+# DO NOT EDIT BELOW THIS LINE -------------------------------------------------
+
+# These fields shouldn't need to change from project to project.
+
+# For theme documentation: https://pmarsceill.github.io/just-the-docs/
 remote_theme: pmarsceill/just-the-docs
 
-# Aux links for the upper right navigation, linking to the data ingress too
-aux_links:
-  "Go To Data Curator App":
-    - "https://www.synapse.org/#!Wiki:syn20681266/ENTITY"
-
-# Makes Aux links open in a new tab. Default is false
+# Clicking on auxiliary links (top right) will open new tabs
 aux_links_new_tab: true
 
-# allow linking to headers
+# Headers have chain links appearing on hover with anchor (deep) links
 heading_anchors: true
+
+# Ignore README.md, which is intended for being seen on GitHub
+exclude: 
+  - README.md
+
+# This section is required for local testing with docker-compose
+plugins:
+  - jekyll-remote-theme

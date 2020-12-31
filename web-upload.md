@@ -19,26 +19,24 @@ This option would typically be useful for uploading files residing on your local
 1. Navigate to your project, using the Synapse link provided by your DCC liaison
    - If prompted, please login with your Synapse account (or an associated Google account).
  
-   ![synapseLogin](https://user-images.githubusercontent.com/15043209/67429375-e0faab80-f594-11e9-9353-1ab2fcd4976e.png)
+   ![Synapse Login Page](images/screenshots/synapse-login.png){: .screenshot}
 
 2. Create a folder to store your first dataset.
    - Go to the Files tab 
 
-   ![htax FilesTab](https://user-images.githubusercontent.com/15043209/67429855-df7db300-f595-11e9-88b4-dab59c3ec95a.png)
+   ![Synapse Project Files Tab](images/screenshots/synapse-project-before.png){: .screenshot}
     
    - Create a folder (click on Files Tools -> Add New folder) 
    
-   ![htax CreateFolder](https://user-images.githubusercontent.com/15043209/67429986-253a7b80-f596-11e9-8e71-52c6b946f676.png)
+   ![Synapse Project New Dataset](images/screenshots/synapse-project-after.png){: .screenshot}
 
 
 3. Go to your folder and upload the files from your dataset (click on Folder Tools -> Upload or Link to a File)
    
-   ![htax Folder](https://user-images.githubusercontent.com/15043209/67430041-4733fe00-f596-11e9-90fc-cd88cdef51c1.png)
+   ![Synapse Project Empty Dataset](images/screenshots/synapse-dataset-before.png){: .screenshot}
    
-   ![htax FileUpload](https://user-images.githubusercontent.com/15043209/67430069-531fc000-f596-11e9-811b-5c48ef1a8ded.png)
+   ![Synapse Project Upload to Dataset](images/screenshots/synapse-dataset-upload.png){: .screenshot}
 
 4. Once uploaded you can preview your files:
    
-   ![htaxFilesUploaded](https://user-images.githubusercontent.com/15043209/67430086-5c109180-f596-11e9-9c58-dc7f36c5f134.png)
-
-
+   ![Synapse Project Dataset Complete](images/screenshots/synapse-dataset-after.png){: .screenshot}

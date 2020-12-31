@@ -18,54 +18,49 @@ Continuing on from [Step 2 - Request a Metadata Template](step-2), you can annot
 
 1. Clicking on the generated template link will open up the template in Google Sheets
 
-    ![dcc-onboarding-flow-link-to-template](https://user-images.githubusercontent.com/12868382/86057431-04bf9c80-ba14-11ea-936a-3203ab5bb893.png)
-
-    ![htan-metadata-template](https://user-images.githubusercontent.com/12868382/86075088-0d2bcd80-ba3c-11ea-979d-866460036306.png)
+    ![Data Curator Google Sheets Link Generated](images/screenshots/curator-link-after-1.png){: .screenshot}
 
 2. You can fill in the templates by selecting the available variables in each cell's dropdown menu. For cells that don't have a drop down, you can type in the appropriate value. 
     
-    ![htan-metadata-template](https://user-images.githubusercontent.com/12868382/86075189-4c5a1e80-ba3c-11ea-9e5f-1b2bc797da2d.png)
+    ![Google Sheets Manifest Template Empty](images/screenshots/gsheets-new-before.png){: .screenshot}
 
 3. **Required** metadata is highlighted in light green, whereas optional values are in yellow. _Conditionally required_ elements can also appear as you fill out the template.  
 
-    ![htan-metadata-optional-required](https://user-images.githubusercontent.com/12868382/86075192-4e23e200-ba3c-11ea-9d31-e6da928624a4.png)
-
+    ![Google Sheets Manifest Template Completed](images/screenshots/gsheets-new-error.png){: .screenshot}
 
     - _**Note**: you can also save the spreadsheet as a CSV file and use a method of your choice to fill it out. The metadata CSV will be validated by the Data Curator app before submission regardless of the method used to fill out the template._
-  
 
 4. Once you've filled in the template, you can save your spreadsheet as a CSV (File -> Download -> Comma-separated Values...)
 
-    ![htan-metadata-download-template](https://user-images.githubusercontent.com/12868382/86076383-c8556600-ba3e-11ea-8b63-e00abe2a9392.png)
-
+    ![Google Sheets Manifest Template Export](images/screenshots/gsheets-new-export.png){: .screenshot}
 
 5. Next, go gack to the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) and navigate to the "Submit & Validate Metadata" step in the left-hand sidebar. 
 
-    ![htan-app-upload-template](https://user-images.githubusercontent.com/12868382/86076568-25e9b280-ba3f-11ea-924f-08367bda785d.png)
-
+    ![Data Curator Validation Page](images/screenshots/curator-validate-before.png){: .screenshot}
 
 6. Click on the "Browse" button to upload your saved CSV. You will be shown a preview of your file in the panel below the upload bar. 
 
-    ![htan-app-file-preview](https://user-images.githubusercontent.com/12868382/86076670-54678d80-ba3f-11ea-8c16-fb4c9c100aea.png)
-
+    ![Data Curator Validation Upload](images/screenshots/curator-validate-new-after.png){: .screenshot}
 
 7. To validate your CSV, click the "**Validate Metadata**" button. 
 
 8. If you receive an error upon pressing the "**Validate Metadata**" button, the metadata template-cells causing the error will be highlighted, along with a corresponding list of error details. You will also get a message letting you know that you can "Edit your data locally or **on Google Sheets**". Clicking "**on Google Sheets**" will re-open the file for you on the web to edit. Once you've resolved the errors, repeat steps 4-7 to validate the updated file. 
 
-    ![htan-app-invalid-metadata](https://user-images.githubusercontent.com/12868382/86077044-1cad1580-ba40-11ea-9765-b5da9d70423e.png)
+    ![Data Curator Validation Upload](images/screenshots/curator-validate-new-error.png){: .screenshot}
+
+    ![Google Sheets Manifest Template Fixed](images/screenshots/gsheets-new-fixed.png){: .screenshot}
 
 9. If the template has been filled out correctly, you will see a "**Your metadata is valid!**" message and the "**Submit to Synapse**" button will become clickable.
 
-    ![htan-app-valid-metadata](https://user-images.githubusercontent.com/12868382/86077039-1ae35200-ba40-11ea-9d09-6c147c708364.png)
+    ![Data Curator Validation Upload](images/screenshots/curator-validate-fixed-after.png){: .screenshot}
 
 10. Click on the "**Submit to Synapse**" button.
 
-    ![htan-app-submit-to-synapse](https://user-images.githubusercontent.com/12868382/86077490-e6bc6100-ba40-11ea-8ab0-dd70fea65ac0.png)
+    ![Data Curator Submitting](images/screenshots/curator-validate-submitting.png){: .screenshot}
 
 11. You will receive a "**Success!**" notification once the metadata has finished uploading to Synapse and confirms that the dataset has been curated according to the relevant DCC  data model. You will also get a link to your metadata file in Synapse. 
 
-    ![htan-app-metadata-submission-success](https://user-images.githubusercontent.com/12868382/86077676-3ef36300-ba41-11ea-9f80-1a26855237cb.png)
+    ![Data Curator Submitted](images/screenshots/curator-validate-fixed-success.png){: .screenshot}
 
   
 #### Please contact your [DCC liaison](dcc-liaison) if you cannot resolve a metadata error; or have questions regarding metadata submission.
@@ -75,11 +70,11 @@ Continuing on from [Step 2 - Request a Metadata Template](step-2), you can annot
 
 You can verify that both your dataset and metadata have been successfully submitted to the DCC by navigating to the Synapse project containing your dataset. The link to the project was provided by your DCC liaison in Step 1.  A link to where your metadata file lives is generated by the Data Curator App upon successful submission of your metadata. 
 
-![htan-app-metadata-manifest-file](https://user-images.githubusercontent.com/12868382/86078958-1faa0500-ba44-11ea-8fb8-06f89e10d099.png)
+![Synapse Metadata Table](images/screenshots/synapse-manifest.png){: .screenshot}
 
 You can also see your metadata in a table by navigating to the `Tables` tab of your project. There would be a table with your dataset name which you can query and view.
 
-![htan-app-metadata-table](https://user-images.githubusercontent.com/12868382/86078947-1ae55100-ba44-11ea-93d6-c5b6411e5e5a.png)
+![Synapse Metadata Table](images/screenshots/synapse-dataset-table-before.png){: .screenshot}
 
 Congrats! 
 {: .label .label-green }

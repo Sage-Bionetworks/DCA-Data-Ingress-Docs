@@ -18,7 +18,7 @@ At present, the DCC supports a web-based metadata upload via the [Data Curator w
 7. Click on the generated link to open the template on the web. 
 
 
-![data-curator-request-metadata-template](https://user-images.githubusercontent.com/12868382/85980436-3fcfba80-b997-11ea-9bfe-470886e5de84.png)
+![Data Curator Select Dataset Type](images/screenshots/curator-select-type-1.png){: .screenshot}
 
 For a detailed step-by-step on how to generate your metadata for the first time or for how to update existing metadata, please refer to the following pages:
 

@@ -1,0 +1,38 @@
+.email-image {
+  margin: 2em auto;
+  display: block;
+}
+
+.main-content blockquote,
+.main-content blockquote ol,
+.main-content blockquote ul,
+.main-content blockquote dl,
+.main-content blockquote pre,
+.main-content blockquote address,
+.main-content blockquote .table-wrapper {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.main-content blockquote {
+  margin-bottom: 0;
+  background-color: rgb(240, 240, 240);
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.main-content blockquote p {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+img.screenshot {
+  border: 3px solid #2e2e2e;
+  border-radius: 3px;
+  width: 90%;
+  margin-left: 5%;
+}
