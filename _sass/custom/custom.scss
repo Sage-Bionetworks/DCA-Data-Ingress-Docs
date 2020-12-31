@@ -17,6 +17,11 @@
 }
 
 .main-content blockquote {
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+.main-content blockquote {
   margin-bottom: 0;
   background-color: rgb(240, 240, 240);
   padding-left: 1em;
@@ -28,6 +33,14 @@
   margin-bottom: 0em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+}
+
+.main-content blockquote code {
+  background-color: #ffffff;
+  color: black;
+  vertical-align: text-top;
+  border: 1px solid #848484;
+  padding: 0.2em 0.35em;
 }
 
 img.screenshot {

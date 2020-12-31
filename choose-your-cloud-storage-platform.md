@@ -3,6 +3,7 @@ layout: default
 title: Choose Your Cloud Storage Platform
 parent: Step 1 - Upload Your Data 
 nav_order: 2
+nav_exclude: ! site.toggles.custom_cloud_storage
 ---
 
 # Choose Your Cloud Storage Platform

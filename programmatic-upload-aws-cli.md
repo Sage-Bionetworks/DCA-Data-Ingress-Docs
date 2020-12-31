@@ -4,6 +4,7 @@ title: Uploading Data Using the AWS CLI
 parent: Uploading Data
 grand_parent: Step 1 - Upload Your Data 
 nav_order: 1
+nav_exclude: ! site.toggles.custom_cloud_storage
 ---
 
 # Uploading Data Using the AWS CLI (recommended for large data)

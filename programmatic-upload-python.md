@@ -26,34 +26,34 @@ You can modify the Python code vignette below for your particular dataset upload
 
 2. To upload a dataset from a local folder to a Synapse storage location, you can modify the script below
 
-```python
-# the python Synapse client module
-import synapseclient
+    ```python
+    # the python Synapse client module
+    import synapseclient
 
-# Synapse will organize your data files in a folder within project
-# these are the corresponding Synapse modules
-from synapseclient import Project, Folder, File
+    # Synapse will organize your data files in a folder within project
+    # these are the corresponding Synapse modules
+    from synapseclient import Project, Folder, File
 
-# Log in to synapse
-syn = synapseclient.Synapse()
+    # Log in to synapse
+    syn = synapseclient.Synapse()
 
-syn.login('my_username', 'my_password')
+    syn.login('my_username', 'my_password')
 
-# Name and create the folder that will store your dataset; 
-# you can use a name representative for your particular dataset, e.g. hta-x-dataset
-# for the parent parameter, please enter the synapse project ID provided by your DCC liaison
-data_folder = Folder('hta-x-dataset', parent='syn123')
+    # Name and create the folder that will store your dataset; 
+    # you can use a name representative for your particular dataset, e.g. hta-x-dataset
+    # for the parent parameter, please enter the synapse project ID provided by your DCC liaison
+    data_folder = Folder('hta-x-dataset', parent='syn123')
 
-# create the folder on Synapse
-data_folder = syn.store(data_folder)
+    # create the folder on Synapse
+    data_folder = syn.store(data_folder)
 
-# point to files you'd like to upload in your dataset; note that the description field is optional
-# the code below would upload two files to your folder, feel free to create a loop for more files
-test_entity = File('/path/to/data/file1.txt', description='file 1', parent=data_folder)
-test_entity = syn.store(test_entity)
+    # point to files you'd like to upload in your dataset; note that the description field is optional
+    # the code below would upload two files to your folder, feel free to create a loop for more files
+    test_entity = File('/path/to/data/file1.txt', description='file 1', parent=data_folder)
+    test_entity = syn.store(test_entity)
 
-test_entity = File('/path/to/data/file1.txt', description='file 2', parent=data_folder)
-test_entity = syn.store(test_entity)
-```
+    test_entity = File('/path/to/data/file1.txt', description='file 2', parent=data_folder)
+    test_entity = syn.store(test_entity)
+    ```
 
 

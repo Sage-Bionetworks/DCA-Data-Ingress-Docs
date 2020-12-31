@@ -4,10 +4,12 @@ title: Uploading Data
 parent: Step 1 - Upload Your Data 
 nav_order: 4
 has_children: true
+has_toc: false
 ---
 
 # Uploading Data
 
+{% if site.toggles.custom_cloud_storage == true %}
 ## Uploading Large Data
 
 The DCC will create buckets in AWS or Google Cloud Storage for you once you have let your DCC liaison know which storage platform you would like to use. The DCC will allow centers to upload directly to these buckets. This approach is especially useful if there is 500GB+ of data and you would like the fastest upload speeds. Object permissions and other flags are necessary to allow the files to be automatically synced onto Synapse. For additional information, please read the Intro to Cloud Buckets article and reach out to your DCC liaison. 
@@ -47,4 +49,12 @@ Upon request, the DCC will create Google Storage buckets for centers upload dire
 
 Choosing Google Cloud Storage:
 - if your center's data is already stored on Google Cloud, select Google Cloud as your storage option
- 
+{% endif %}
+
+## [Programmatic Upload to Synapse Using Python](programmatic-upload-python) 
+
+This option would typically be most suitable for upload of files residing on a cloud or your local machine; and in case of uploading large-number and/or large-size files.
+
+## [Uploading Data to Synapse Using the Web Interface](web-upload) 
+
+This option would typically be useful for uploading files residing on your local machine to a Synapse cloud storage location. You can follow the steps outlined below to complete a data upload.

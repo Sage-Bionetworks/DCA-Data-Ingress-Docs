@@ -18,7 +18,7 @@ The DCC will create empty, common top-level folders for you to get started.
 ### Hierarchical example
 
 ```
- .
+.
 ├── clinical_tier_1_diagnosis
 ├── clinical_tier_1_demographics
 ├── biospecimen_tier_1
@@ -34,7 +34,7 @@ Your files should be reasonably descriptive in stating the assay type and level 
 ### Flattened example
 
 ```
- .
+.
 ├── biospecimen_tier_1_experiment_1
 ├── biospecimen_tier_1_experiment_2
 ├── single_cell_level_1_batch_1

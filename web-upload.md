@@ -19,24 +19,24 @@ This option would typically be useful for uploading files residing on your local
 1. Navigate to your project, using the Synapse link provided by your DCC liaison
    - If prompted, please login with your Synapse account (or an associated Google account).
  
-   [![Synapse Login Page](images/screenshots/synapse-login.png){: .screenshot}](images/screenshots/synapse-login.png)
+   [![Synapse Login Page](images/screenshots/synapse-login.png){:.screenshot}](images/screenshots/synapse-login.png)
 
 2. Create a folder to store your first dataset.
    - Go to the Files tab 
 
-   [![Synapse Project Files Tab](images/screenshots/synapse-project-before.png){: .screenshot}](images/screenshots/synapse-project-before.png)
+   [![Synapse Project Files Tab](images/screenshots/synapse-project-before.png){:.screenshot}](images/screenshots/synapse-project-before.png)
     
    - Create a folder (click on Files Tools -> Add New folder) 
    
-   [![Synapse Project New Dataset](images/screenshots/synapse-project-after.png){: .screenshot}](images/screenshots/synapse-project-after.png)
+   [![Synapse Project New Dataset](images/screenshots/synapse-project-after.png){:.screenshot}](images/screenshots/synapse-project-after.png)
 
 
 3. Go to your folder and upload the files from your dataset (click on Folder Tools -> Upload or Link to a File)
    
-   [![Synapse Project Empty Dataset](images/screenshots/synapse-dataset-before.png){: .screenshot}](images/screenshots/synapse-dataset-before.png)
+   [![Synapse Project Empty Dataset](images/screenshots/synapse-dataset-before.png){:.screenshot}](images/screenshots/synapse-dataset-before.png)
    
-   [![Synapse Project Upload to Dataset](images/screenshots/synapse-dataset-upload.png){: .screenshot}](images/screenshots/synapse-dataset-upload.png)
+   [![Synapse Project Upload to Dataset](images/screenshots/synapse-dataset-upload.png){:.screenshot}](images/screenshots/synapse-dataset-upload.png)
 
 4. Once uploaded you can preview your files:
    
-   [![Synapse Project Dataset Complete](images/screenshots/synapse-dataset-after.png){: .screenshot}](images/screenshots/synapse-dataset-after.png)
+   [![Synapse Project Dataset Complete](images/screenshots/synapse-dataset-after.png){:.screenshot}](images/screenshots/synapse-dataset-after.png)

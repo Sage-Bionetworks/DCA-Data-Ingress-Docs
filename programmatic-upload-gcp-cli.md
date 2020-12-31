@@ -4,6 +4,7 @@ title: Uploading Data Using the gsutil CLI to Google Cloud Storage
 parent: Uploading Data
 grand_parent: Step 1 - Upload Your Data 
 nav_order: 2
+nav_exclude: ! site.toggles.custom_cloud_storage
 ---
 
 # Uploading Data to Google Cloud Storage Using gsutil CLI (recommended for large data) 

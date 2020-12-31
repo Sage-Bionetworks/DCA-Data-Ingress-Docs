@@ -22,75 +22,75 @@ Now you'd like to update your metadata in order to:
 
 _In this how-to, we'll be using an example `Assay: Bulk RNA-seq` dataset named `CohortN - DatasetX` located in a Synapse Project called `CenterA`. This is a dataset that's been annotated previously._      
 
-1. Access the [Data Curator app](https://www.synapse.org/#!Wiki:syn20681266/ENTITY)
+1. Access the [Data Curator app]({{ site.aux_links["Go To Data Curator"][0] }}){:target="_blank"}
     - If you are prompted to login to Synapse, please use your Synapse account (or associated Google account).
     
   
 2. In the app, go to the "**Select Your Dataset**" section in the left-hand menu. From that page, select your project from the dropdown. 
     - The project name corresponds to the bucket name (here `CenterA`).  
 
-   [![Data Curator Select Project](images/screenshots/curator-select-none.png){: .screenshot}](images/screenshots/curator-select-none.png)
+   [![Data Curator Select Project](images/screenshots/curator-select-none.png){:.screenshot}](images/screenshots/curator-select-none.png)
     
 3. Next, select your dataset, which corresponds to the folder name in your bucket (here `CohortN - DatasetX`).
 
-   [![Data Curator Select Folder](images/screenshots/curator-select-dataset.png){: .screenshot}](images/screenshots/curator-select-dataset.png)
+   [![Data Curator Select Folder](images/screenshots/curator-select-dataset.png){:.screenshot}](images/screenshots/curator-select-dataset.png)
 
 4. Then, select the metadata template you would like to use (here `Assay: Bulk RNA-seq`). If you don't see the correct template for your dataset, you can select the "Minimal Metadata" template and [contact your DCC liaison](step-1).
 
-   [![Data Curator Select Data Type](images/screenshots/curator-select-type-2.png){: .screenshot}](images/screenshots/curator-select-type-2.png)
+   [![Data Curator Select Data Type](images/screenshots/curator-select-type-2.png){:.screenshot}](images/screenshots/curator-select-type-2.png)
 
 5. Once you have selected your dataset and metadata template, navigate to the "*Get Metadata Template*" section in the left-hand menu. Select the "*Click to Generate Google Sheets Template*" button. 
     - This will generate a link to a Google spreadsheet containing an empty template for you to complete with metadata, for each of the files in your dataset. This can take awhile depending on how many files are in your folder, so please be patient!
 
-   [![Data Curator Google Sheets Link Button](images/screenshots/curator-link-before.png){: .screenshot}](images/screenshots/curator-link-before.png)
+   [![Data Curator Google Sheets Link Button](images/screenshots/curator-link-before.png){:.screenshot}](images/screenshots/curator-link-before.png)
 
-   [![Data Curator Google Sheets Link Generation](images/screenshots/curator-link-during.png){: .screenshot}](images/screenshots/curator-link-during.png)
+   [![Data Curator Google Sheets Link Generation](images/screenshots/curator-link-during.png){:.screenshot}](images/screenshots/curator-link-during.png)
 
 
 6. Clicking on the generated template link will open up the template in Google Sheets.
 
-   [![Data Curator Google Sheets Link Generated](images/screenshots/curator-link-after-2.png){: .screenshot}](images/screenshots/curator-link-after-2.png)
+   [![Data Curator Google Sheets Link Generated](images/screenshots/curator-link-after-2.png){:.screenshot}](images/screenshots/curator-link-after-2.png)
 
 
 7. All previously validated metadata is available.
 
-      [![Google Sheets Manifest Template Prefilled](images/screenshots/gsheets-prefilled-before.png){: .screenshot}](images/screenshots/gsheets-prefilled-before.png)
+      [![Google Sheets Manifest Template Prefilled](images/screenshots/gsheets-prefilled-before.png){:.screenshot}](images/screenshots/gsheets-prefilled-before.png)
 
 8. Add a new row (in this case, a participant), but it can be other new information. 
    
-   [![Google Sheets Manifest Template Expanded](images/screenshots/gsheets-prefilled-after.png){: .screenshot}](images/screenshots/gsheets-prefilled-after.png)
+   [![Google Sheets Manifest Template Expanded](images/screenshots/gsheets-prefilled-after.png){:.screenshot}](images/screenshots/gsheets-prefilled-after.png)
 
     - _**Note**: you can also save the spreadsheet as a CSV file and use a method of your choice to fill it out. The metadata CSV will be validated by the Data Curator app before submission regardless of the method used to fill out the template._
 
 9. Once you've filled in the template, you can save your spreadsheet as a CSV (File -> Download -> Comma-separated Values...)
 
-   [![Google Sheets Manifest Template Export](images/screenshots/gsheets-prefilled-export.png){: .screenshot}](images/screenshots/gsheets-prefilled-export.png)
+   [![Google Sheets Manifest Template Export](images/screenshots/gsheets-prefilled-export.png){:.screenshot}](images/screenshots/gsheets-prefilled-export.png)
 
-10. Next, go gack to the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) and navigate to the "Submit & Validate Metadata" step in the left-hand sidebar. Click on the "Browse" button to upload your saved CSV. 
+10. Next, go gack to the [Data Curator App]({{ site.aux_links["Go To Data Curator"][0] }}){:target="_blank"} and navigate to the "Submit & Validate Metadata" step in the left-hand sidebar. Click on the "Browse" button to upload your saved CSV. 
 
-   [![Data Curator Validation Page](images/screenshots/curator-validate-before.png){: .screenshot}](images/screenshots/curator-validate-before.png)
+   [![Data Curator Validation Page](images/screenshots/curator-validate-before.png){:.screenshot}](images/screenshots/curator-validate-before.png)
 
 11. Check the preview of your file to make sure everything looks correct. 
 
-   [![Data Curator Validation Upload](images/screenshots/curator-validate-prefilled-after.png){: .screenshot}](images/screenshots/curator-validate-prefilled-after.png)
+   [![Data Curator Validation Upload](images/screenshots/curator-validate-prefilled-after.png){:.screenshot}](images/screenshots/curator-validate-prefilled-after.png)
 
 12. Validate your CSV by clicking the "**Validate Metadata**" button. 
 
 13. Once validated, you can submit by clicking on the "**Submit to Synapse**" button.
    
-   [![Data Curator Validation Success](images/screenshots/curator-validate-prefilled-success.png){: .screenshot}](images/screenshots/curator-validate-prefilled-success.png)
+   [![Data Curator Validation Success](images/screenshots/curator-validate-prefilled-success.png){:.screenshot}](images/screenshots/curator-validate-prefilled-success.png)
    
-   [![Data Curator Submitting](images/screenshots/curator-validate-submitting.png){: .screenshot}](images/screenshots/curator-validate-submitting.png)
+   [![Data Curator Submitting](images/screenshots/curator-validate-submitting.png){:.screenshot}](images/screenshots/curator-validate-submitting.png)
 
 15. Success! 
    
-      [![Data Curator Submitted](images/screenshots/curator-validate-prefilled-submitted.png){: .screenshot}](images/screenshots/curator-validate-prefilled-submitted.png)
+      [![Data Curator Submitted](images/screenshots/curator-validate-prefilled-submitted.png){:.screenshot}](images/screenshots/curator-validate-prefilled-submitted.png)
 
 16. Check your metadata on Synapse. A link to where your metadata file lives is generated by the Data Curator App upon successful submission of your metadata. 
 
 17. See your metadata in a table. You can also see your metadata in a table by navigating to the `Tables` tab of your project. There would be a table with your dataset name which you can query and view.
 
-   [![Synapse Metadata Table](images/screenshots/synapse-dataset-table-after.png){: .screenshot}](images/screenshots/synapse-dataset-table-after.png)
+   [![Synapse Metadata Table](images/screenshots/synapse-dataset-table-after.png){:.screenshot}](images/screenshots/synapse-dataset-table-after.png)
 
 **Please contact your [DCC liaison](dcc-liaison) if you cannot resolve a metadata error or have questions regarding metadata updates and submission.**
 

@@ -3,11 +3,12 @@ layout: default
 title: Step 2 - Request a Metadata Template
 nav_order: 3
 has_children: true
+has_toc: false
 ---
 
 # Step 2 - Request a Metadata Template Overview
 
-At present, the DCC supports a web-based metadata upload via the [Data Curator web app](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) in Synapse. You can generate a metadata template using the app -- note that the template will change depending on your data type. 
+At present, the DCC supports a web-based metadata upload via the [Data Curator web app]({{ site.aux_links["Go To Data Curator"][0] }}){:target="_blank"} in Synapse. You can generate a metadata template using the app -- note that the template will change depending on your data type. 
 
 1. Navigate to the Data Ingress App and log in to Synapse if prompted.
 2. Go to "Select Your Dataset" in the sidebar navigation of the app. 
@@ -18,7 +19,7 @@ At present, the DCC supports a web-based metadata upload via the [Data Curator w
 7. Click on the generated link to open the template on the web. 
 
 
-[![Data Curator Select Dataset Type](images/screenshots/curator-select-type-1.png){: .screenshot}](images/screenshots/curator-select-type-1.png)
+[![Data Curator Select Dataset Type](images/screenshots/curator-select-type-1.png){:.screenshot}](images/screenshots/curator-select-type-1.png)
 
 For a detailed step-by-step on how to generate your metadata for the first time or for how to update existing metadata, please refer to the following pages:
 
