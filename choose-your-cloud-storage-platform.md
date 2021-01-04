@@ -13,6 +13,8 @@ If you do not already have an account, [please register for a Synapse account](h
 
 [Create a Synapse Account](https://www.synapse.org/#!RegisterAccount:0){: .btn .btn-purple }
 
+Once you create your Synapse account, please make sure to [certify it](https://docs.synapse.org/articles/getting_started.html#getting-certified), in order to have upload access to Synapse. The certification process is short and ensures you are informed about basic Synapse data-use requirements.
+
 Next, please provide your Synapse username and indicate your cloud platform preference to your [DCC liaison](dcc-liaison). You can indicate a cloud platform of your choice, however the DCC recommends the following options:
 
 - if your center's data is already stored on premises/local machines, select AWS as your storage option
