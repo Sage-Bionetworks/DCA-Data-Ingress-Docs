@@ -8,7 +8,7 @@ nav_order: 5
 
 Q: What do we need to do to copy data to the DCC?
 
-A: Contact your center liaison so we understand your specific needs, upload your release-ready data with a descriptive top-level folder name, and iteratively annotate and validate your data as new metadata standards are released by the working groups with the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) or the API. Details on how to upload your data can be found in the [Step 1 - Upload Your Data](step-1) section of these docs.     
+A: Contact your center liaison so we understand your specific needs, upload your release-ready data with a descriptive top-level folder name, and iteratively annotate and validate your data as new metadata standards are released by the working groups with the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) or the API. Details on how to upload your data can be found in the [Step 1 - Upload Your Data](step-1) section of these docs. You must be a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users) to be able to upload and annotate your data.     
 
 <br/>
 
@@ -32,7 +32,7 @@ A: Each project will have a corresponding Synapse project that is private until 
 
 Q: How do I become a Synapse certified user?
 
-A: Guidance on becoming a certified user can be found [here](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html). All data submitters must become certified users in order to upload data to Synapse.
+A: Guidance on becoming a certified user can be found [here](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html). **All data submitters must become certified users in order to upload data to Synapse.**
 
 <br/>
 
@@ -94,7 +94,7 @@ A: You can use Synapse's internal docker registry, or you can link to a docker r
 
 Q: How do I upload a \<dataset type> dataset?
 
-A: Please follow the steps for for data upload: [Step 1 - Upload Your Data](step-1).
+A: Please follow the steps for for data upload: [Step 1 - Upload Your Data](step-1). Please note that you must be a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users) otherwise you will not be able to submit your data nor metadata.
 
 <br/>
 
