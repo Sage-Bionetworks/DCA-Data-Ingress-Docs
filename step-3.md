@@ -4,7 +4,11 @@ title: Step 3 - Annotate and Submit Your Metadata
 nav_order: 4
 ---
 
+
 # Step 3 - Annotate and Submit Your Metadata Overview
+
+#### Requirements
+- You are a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users) (You will not be able to submit your metadata unless you are a certified user.)
 
 Continuing with the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY), the metadata:
 
