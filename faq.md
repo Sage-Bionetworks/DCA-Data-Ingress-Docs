@@ -189,4 +189,4 @@ A: Yes, please compress larger files. The DCC accepts most file compression type
 
 Q: When can we expect a public release of data?
 
-A:  Late fall/early winter 2020, depending on data availability.
+A:  Late spring/early summer 2021, depending on data availability.
