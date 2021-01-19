@@ -32,7 +32,7 @@ A: Each project will have a corresponding Synapse project that is private until 
 
 Q: How do I become a Synapse certified user?
 
-A: Guidance on becoming a certified user can be found [here](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html). **All data submitters must become certified users in order to upload data to Synapse.**
+A: Guidance on becoming a certified user can be found [here](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html). **All data submitters must become certified users in order to upload data to Synapse. This includes those that are submitting/adding metadata.**
 
 <br/>
 
@@ -112,13 +112,13 @@ A: When you specify the dataset type (e.g. scRNASeq) to the programmatic client 
 
 Q:  How can I update datasets and related metadata?
 
-A:  You can use the programmatic or web interface to add files to a dataset, change metadata associated with files in a dataset, and mark files as obsolete. See the “Update existing metadata” section of the Data Ingress SOP. 
+A:  You can use the programmatic or web interface to add files to a dataset, change metadata associated with files in a dataset, and mark files as obsolete. See the “Update existing metadata” section of the Data Ingress SOP. Please note that you will need to be a [certified user](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users) on Synapse in order to add/modify metadata. 
 
 <br/>
 
-Q: How can I give metadata  update access to someone else in my institute?
+Q: How can I give metadata update access to someone else in my institute?
 
-A: Contact your team manager to add users to your center’s Synapse Team.  
+A: Contact your team manager to add users to your center’s Synapse Team and ensure that the new member becomes a [certified user](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users) on Synapse.
 
 <br/>
 
