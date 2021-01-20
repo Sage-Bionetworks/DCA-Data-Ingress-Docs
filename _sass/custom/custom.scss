@@ -41,11 +41,12 @@
   vertical-align: text-top;
   border: 1px solid #848484;
   padding: 0.2em 0.35em;
+  white-space: nowrap;
 }
 
 img.screenshot {
   border: 3px solid #2e2e2e;
   border-radius: 3px;
-  width: 90%;
+  max-width: 90%;
   margin-left: 5%;
 }
