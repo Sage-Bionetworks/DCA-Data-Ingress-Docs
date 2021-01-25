@@ -8,10 +8,13 @@ title: "Data Ingress Docs"
 # Auxiliary links appear at the top right of every page
 aux_links:
   # This URL is used for every link in the docs to the Data Curator.
-  # Important: If you change the text "Go To Data Curator", you will
+  # Important: If you change the text "Data Curator", you will
   # have to update every instance of it in the Markdown files.
-  "Go To Data Curator":
+  "Data Curator":
     - "https://shinypro.synapse.org/users/bgrande/data_curator_demo/"
+  # Update this URL to wherever you want users to report issues
+  "Report Issue":
+    - "https://github.com/Sage-Bionetworks/data_curator/issues/new"
 
 
 # Project-specific placeholder variables --------------------------------------
