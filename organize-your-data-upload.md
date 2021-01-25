@@ -11,7 +11,7 @@ Centers may use a hierarchical file structure within their cloud storage locatio
 
 ## Top Level Folder Names
 
-Top level folders correspond to the assay and level metadata you will be submitting. For example, we have `scRNAseq levels 1`, `2`, `3`, `4` and in each RFC the corresponding attribute table is converted into a schema and generates a  google spreadsheet for the Data Curator App. See below for examples. 
+Top level folders correspond to the assay and level metadata you will be submitting. For example, for the assays `scRNAseq levels 1`, `2`, `3`, `4`, the corresponding attribute table is converted into a schema and generates a  google spreadsheet for the Data Curator App. See below for examples. 
 
 The DCC will create empty, common top-level folders for you to get started. 
 

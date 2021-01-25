@@ -8,13 +8,13 @@ has_toc: false
 
 # Step 2 - Request a Metadata Template Overview
 
-At present, the DCC supports a web-based metadata upload via the [Data Curator web app]({{ site.aux_links["Go To Data Curator"][0] }}){:target="_blank"} in Synapse. You can generate a metadata template using the app -- note that the template will change depending on your data type. 
+At present, the DCC supports a web-based metadata upload via the [Data Curator web app]({{ site.aux_links["Data Curator"][0] }}){:target="_blank"} in Synapse. You can generate a metadata template using the app -- note that the template will change depending on your data type. 
 
 1. Navigate to the Data Ingress App and log in to Synapse if prompted.
 2. Go to "Select Your Dataset" in the sidebar navigation of the app. 
 3. Select your Project (if you have more than one) from the dropdown.
 4. Select your Folder from the dropdown. Dataset folders you have access to will be loaded automatically.
-5. Select the template for your dataset. All RFC-defined data types are available.
+5. Select the template for your dataset. 
 6. Navigate to the "*Get Metadata Template*" section in the left-hand menu. Select the "*Click to Generate Google Sheets Template*" button. 
 7. Click on the generated link to open the template on the web. 
 

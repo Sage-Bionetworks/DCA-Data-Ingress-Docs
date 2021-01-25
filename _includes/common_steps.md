@@ -1,4 +1,4 @@
-1. Access the [Data Curator]({{ site.aux_links["Go To Data Curator"][0] }}){:target="_blank"}.
+1. Access the [Data Curator]({{ site.aux_links["Data Curator"][0] }}){:target="_blank"}.
     - If you are prompted to login to Synapse, please use your Synapse account (or associated Google account).
   
 2. Navigate to the "**Select your Dataset**" section in the left-hand menu of the Data Curator. From that page, select your Synapse project from the dropdown (here, `CenterA`). 

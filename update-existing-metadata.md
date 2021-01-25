@@ -41,7 +41,7 @@ Now you'd like to update your metadata in order to:
 
     [![Google Sheets Manifest Template Export](images/screenshots/gsheets-prefilled-export.png){:.screenshot}](images/screenshots/gsheets-prefilled-export.png)
 
-10. Back in the [Data Curator]({{ site.aux_links["Go To Data Curator"][0] }}){:target="_blank"}, navigate to the "**Submit & Validate Metadata**" section in the left-hand menu. 
+10. Back in the [Data Curator]({{ site.aux_links["Data Curator"][0] }}){:target="_blank"}, navigate to the "**Submit & Validate Metadata**" section in the left-hand menu. 
 
     [![Data Curator Validation Page](images/screenshots/curator-validate-before.png){:.screenshot}](images/screenshots/curator-validate-before.png)
 

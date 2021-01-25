@@ -6,9 +6,9 @@ nav_order: 4
 
 # Step 3 - Annotate and Submit Your Metadata Overview
 
-Continuing with the [Data Curator App]({{ site.aux_links["Go To Data Curator"][0] }}){:target="_blank"}, the metadata:
+Continuing with the [Data Curator App]({{ site.aux_links["Data Curator"][0] }}){:target="_blank"}, the metadata:
 
-- Can be pre-filled when applicable and RFC-defined attributes are included 
+- Can be pre-filled when applicable and attributes are included 
 - Can be filled in and stored offline
 - Will be validated & associated with the selected dataset on submission
 
@@ -33,7 +33,7 @@ Continuing on from [Step 2 - Request a Metadata Template](step-2), you can annot
 
     [![Google Sheets Manifest Template Export](images/screenshots/gsheets-new-export.png){:.screenshot}](images/screenshots/gsheets-new-export.png)
 
-5. Back in the [Data Curator]({{ site.aux_links["Go To Data Curator"][0] }}){:target="_blank"}, navigate to the "**Submit & Validate Metadata**" section in the left-hand menu. 
+5. Back in the [Data Curator]({{ site.aux_links["Data Curator"][0] }}){:target="_blank"}, navigate to the "**Submit & Validate Metadata**" section in the left-hand menu. 
 
     [![Data Curator Validation Page](images/screenshots/curator-validate-before.png){:.screenshot}](images/screenshots/curator-validate-before.png)
 
