@@ -50,3 +50,24 @@ img.screenshot {
   max-width: 90%;
   margin-left: 5%;
 }
+
+.alert {
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-info {
+  color: #402e88;
+  background-color: #f5f6fa;
+  border-color: #eeebee;
+}
+
+@media (min-width: 31.25rem) {
+  .site-title {
+    font-size: 23px !important;
+    line-height: 1.25;
+  }
+}
