@@ -18,7 +18,7 @@ To ease deployment of this documentation for various projects, we are leveraging
 
 ## Local Testing
 
-The following steps allow you to test/preview the documentation website locally using a Docker container. The contents will automatically be updated as you change the Markdown files. **N.B.** Any changes to the `_config.yml` file will not be reflected in the website; you will need to stop the container with Ctrl-C and relaunch it with `docker-compose up`.
+The following steps allow you to test/preview the documentation website locally using a Docker container. The contents will automatically be updated as you change the Markdown files. 
 
 1. Install Docker and `docker-compose`.
 
@@ -26,8 +26,10 @@ The following steps allow you to test/preview the documentation website locally 
 
 3. Access the local preview of the documentation at http://127.0.0.1:4000.
 
+**N.B.** Any changes to the `_config.yml` file will not be reflected in the website; you will need to stop the container with Ctrl-C and relaunch it with `docker-compose up`.
+
 ## Screenshots
 
-For future reference, the screenshots were taken using the Developer Tools in Google Chrome at a resolution of 1024 x 768. Most screenshots were cropped from the bottom to remove empty space or needless details (like the timestamps at the bottom of Synapse entity pages). After cropping, the resulting PNG images were [compressed](https://compresspng.com/) to minimize file size by roughly 70-75%. 
+For future reference, the screenshots were taken using the Developer Tools in Google Chrome at a resolution of 1024 x 768. Most screenshots were cropped from the bottom to remove empty space or needless details (like the timestamps at the bottom of Synapse entity pages). After cropping, the resulting PNG images were [compressed](https://compresspng.com/) to minimize file size by roughly 70-75% before committing the files to Git.
 
 ![Google Chrome Developer Tools](images/screenshots/devtools.png)
