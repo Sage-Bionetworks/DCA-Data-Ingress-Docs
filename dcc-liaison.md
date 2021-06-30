@@ -9,7 +9,7 @@ nav_order: 1
 
 Before uploading any data to Synapse, the very first step is to contact your DCC liaison. If you're not sure who your DCC liaison is, you can use the DCC Liaison table (below) to find them.
 
-![dcc-liaison-contacts](https://user-images.githubusercontent.com/12868382/86181341-af9e8c00-bae2-11ea-8ef0-2a71819d648c.png)
+![dcc-liaison-contacts](https://user-images.githubusercontent.com/12868382/124018855-2ba10d80-d99d-11eb-8e01-a44884edef84.png)
 
 When you reach out to your DCC liaison, let them know the following:
 - Your center
