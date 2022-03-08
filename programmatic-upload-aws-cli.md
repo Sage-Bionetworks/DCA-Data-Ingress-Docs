@@ -45,7 +45,8 @@ aws s3api put-object \
 --bucket <bucket> \
 --key <folder>/<filename> \
 --body <filepath> \
---acl bucket-owner-full-control 
+--acl bucket-owner-full-control \
+--metadata content-md5=<md5>
 ```
 
 **Shell script using aws s3 cp command**:
