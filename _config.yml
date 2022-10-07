@@ -1,66 +1,17 @@
-# The title appears in a few places (probably doesn't need to be changed)
-title: "Data Ingress Docs"
+# display title and description
+title: HTAN Data Ingress Docs
+description: Data ingress how-to docs for the HTAN community 
 
 # the remote theme that's being used
-remote_theme: just-the-docs/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
-# Auxiliary links appear at the top right of every page
+# Aux links for the upper right navigation, linking to the data ingress too
 aux_links:
-  # This URL is used for every link in the docs to the Data Curator.
-  # Important: If you change the text "Data Curator", you will
-  # have to update every instance of it in the Markdown files.
-  "Data Curator":
-    - "https://shinypro.synapse.org/users/bgrande/data_curator_demo/"
-  # Update this URL to wherever you want users to report issues
-  "Report Issue":
-    - "https://github.com/Sage-Bionetworks/data_curator/issues/new"
+  "Go To Data Curator App":
+    - "https://www.synapse.org/#!Wiki:syn20681266/ENTITY"
 
-# Project-specific placeholder variables --------------------------------------
-
-
-# Defined under 'custom' to avoid clashes with other top-level fields
-
-custom:
-  # Important: Omit any curly braces when updating the values below.
-  # They're included here to highlight placeholders in the demo.
-  community: "{HTAN}"
-  email_requirements:
-    - "{Your center/institution name}"
-    - "{Who on your team will be doing the data upload}"
-  email_template: |
-    {We're ready to begin uploading `<data type X>` for 
-    `<center/institution A>`.}
-  # Toggles that determine what content to be presented (true/false).
-  custom_cloud_storage: false
-
-
-# Replace the files in the 'images/' folder, especially the following:
-
-# images/email.png
-# ~~~~~~~~~~~~~~~~
-# Displaying email as image to avoid getting caught in spam lists
-# Consider using: https://www.generateit.net/email-to-image/index.php
-
-
-# DO NOT EDIT BELOW THIS LINE -------------------------------------------------
-
-# These fields shouldn't need to change from project to project.
-
-# For theme documentation: https://pmarsceill.github.io/just-the-docs/
-# remote_theme: "pmarsceill/just-the-docs"
-remote_theme: "just-the-docs/just-the-docs"
-
-# Clicking on auxiliary links (top right) will open new tabs
+# Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
-# Headers have chain links appearing on hover with anchor (deep) links
+# allow linking to headers
 heading_anchors: true
-
-# Ignore README.md, which is intended for being seen on GitHub
-exclude: 
-  - "README.md"
-  - "vendor"
-
-# This section is required for local testing with docker-compose
-plugins:
-  - "jekyll-remote-theme"
