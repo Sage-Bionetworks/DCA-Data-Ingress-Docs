@@ -3,7 +3,7 @@
 ### Use Docker
 1. Install Docker and `docker-compose`.
 
-2. Run `docker-compose up` from within repository to launch Jekyll Docker container.
+2. Run `docker compose up -d` from within repository to launch Jekyll Docker container.
 
 3. Access the local preview of the documentation at http://127.0.0.1:4000.
 
