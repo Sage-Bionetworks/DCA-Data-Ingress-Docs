@@ -20,7 +20,14 @@ Now you'd like to update your metadata in order to:
    * provide metadata for files that have been added to your dataset
 
 
-_In this how-to, we'll be using an example `clinical` dataset named `Clinical Family History` located in a Synapse Project called `HTAN HCA immune cells census`. This is a dataset that's been annotated previously._      
+_In this how-to, we'll be using an example `clinical` dataset named `Clinical Family History` located in a Synapse Project called `HTAN HCA immune cells census`. This is a dataset that's been annotated previously._
+
+<b> Before you start: </b>
+   * Please make sure that you get your existing metadata first and update it with any additional changes.
+   * You can reuse existing templates as long as your dataset hasn't changed (i.e. files haven't been deleted or added). You could validate and submit without regenerating your templates every time. 
+   * If files were deleted, please ensure that the templates don't contain the records associated with these files.
+
+<b> To update your metadata: </b>
 
 1. Access the [Data Curator app](https://www.synapse.org/#!Wiki:syn20681266/ENTITY)
     - If you are prompted to login to Synapse, please use your Synapse account (or associated Google account).
