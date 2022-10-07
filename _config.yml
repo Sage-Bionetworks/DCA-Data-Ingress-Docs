@@ -13,5 +13,9 @@ aux_links:
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
+# Ignore README.md, which is intended for being seen on GitHub
+exclude: 
+  - "README.md"
+
 # allow linking to headers
 heading_anchors: true
