@@ -1,0 +1,17 @@
+version: '3'
+services:
+  jekyll:
+    #build: .
+    image: jekyll/jekyll:4.2.2
+    command: jekyll serve --watch --force_polling --verbose
+    #command: sh -c "bundle install && bundle exec jekyll serve --watch --incremental --host 0.0.0.0 --livereload -p 4000:4000"
+    ports:
+      - "4000:4000"
+    working_dir: /usr/src/app
+    volumes:
+      - ./:/usr/src/app:delegated
+      - site:/usr/src/app/_site
+    tty: true
+
+volumes:
+  site: {}
