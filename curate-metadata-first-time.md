@@ -8,7 +8,8 @@ nav_order: 1
 # Generating a Template to Curate a Dataset for the First Time
 
 #### Pre-requisites
-- You are a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users)
+# - You are a [certified user on Synapse](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html)
+- You are a [certified user on Synapse](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html)
 - You have [transferred your dataset to the DCC](uploading-data)
 
 

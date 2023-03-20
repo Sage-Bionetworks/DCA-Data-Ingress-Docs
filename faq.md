@@ -8,7 +8,7 @@ nav_order: 5
 
 Q: What do we need to do to copy data to the DCC?
 
-A: Contact your center liaison so we understand your specific needs, upload your release-ready data with a descriptive top-level folder name, and iteratively annotate and validate your data as new metadata standards are released by the working groups with the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) or the API. Details on how to upload your data can be found in the [Step 1 - Upload Your Data](step-1) section of these docs. You must be a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users) to be able to upload and annotate your data.     
+A: Contact your center liaison so we understand your specific needs, upload your release-ready data with a descriptive top-level folder name, and iteratively annotate and validate your data as new metadata standards are released by the working groups with the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) or the API. Details on how to upload your data can be found in the [Step 1 - Upload Your Data](step-1) section of these docs. You must be a [certified user on Synapse](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html) to be able to upload and annotate your data.     
 
 <br/>
 
@@ -94,7 +94,7 @@ A: You can use Synapse's internal docker registry, or you can link to a docker r
 
 Q: How do I upload a \<dataset type> dataset?
 
-A: Please follow the steps for for data upload: [Step 1 - Upload Your Data](step-1). Please note that you must be a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users) otherwise you will not be able to submit your data nor metadata.
+A: Please follow the steps for for data upload: [Step 1 - Upload Your Data](step-1). Please note that you must be a [certified user on Synapse](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html) otherwise you will not be able to submit your data nor metadata.
 
 <br/>
 
@@ -112,13 +112,13 @@ A: When you specify the dataset type (e.g. scRNASeq) to the programmatic client 
 
 Q:  How can I update datasets and related metadata?
 
-A:  You can use the programmatic or web interface to add files to a dataset, change metadata associated with files in a dataset, and mark files as obsolete. See the “Update existing metadata” section of the Data Ingress SOP. Please note that you will need to be a [certified user](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users) on Synapse in order to add/modify metadata. 
+A:  You can use the programmatic or web interface to add files to a dataset, change metadata associated with files in a dataset, and mark files as obsolete. See the “Update existing metadata” section of the Data Ingress SOP. Please note that you will need to be a [certified user](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html) on Synapse in order to add/modify metadata. 
 
 <br/>
 
 Q: How can I give metadata update access to someone else in my institute?
 
-A: Contact your team manager to add users to your center’s Synapse Team and ensure that the new member becomes a [certified user](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users) on Synapse.
+A: Contact your team manager to add users to your center’s Synapse Team and ensure that the new member becomes a [certified user](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html) on Synapse.
 
 <br/>
 
