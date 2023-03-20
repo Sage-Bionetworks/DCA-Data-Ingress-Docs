@@ -8,7 +8,7 @@ nav_order: 4
 # Step 3 - Annotate and Submit Your Metadata Overview
 
 #### Requirements
-- You are a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users) (You will not be able to submit your metadata unless you are a certified user.)
+- You are a [certified user on Synapse](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html) (You will not be able to submit your metadata unless you are a certified user.)
 
 Continuing with the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY), the metadata:
 
@@ -43,7 +43,7 @@ Continuing on from [Step 2 - Request a Metadata Template](step-2), you can annot
     ![htan-metadata-download-template](https://user-images.githubusercontent.com/12868382/86076383-c8556600-ba3e-11ea-8b63-e00abe2a9392.png)
 
 
-5. Next, go gack to the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) and navigate to the "Submit & Validate Metadata" step in the left-hand sidebar. 
+5. Next, go back to the [Data Curator App](https://www.synapse.org/#!Wiki:syn20681266/ENTITY) and navigate to the "Submit & Validate Metadata" step in the left-hand sidebar. 
 
     ![htan-app-upload-template](https://user-images.githubusercontent.com/12868382/86076568-25e9b280-ba3f-11ea-924f-08367bda785d.png)
 

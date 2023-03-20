@@ -9,7 +9,7 @@ nav_order: 3
 # Uploading Data Using Python
 
 #### Requirements
-- You are a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users)
+- You are a [certified user on Synapse](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html)
 - You have contacted your DCC Liaison and they've provided you with your Synapse Project location
 
 ## Step-by-Step

@@ -9,7 +9,7 @@ nav_order: 4
 # Uploading Data Using the Web Interface
 
 #### Requirements
-- You are a [certified user on Synapse](https://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html#certified-users)
+- You are a [certified user on Synapse](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html)
 - You have contacted your [DCC Liaison](dcc-liaison) and they've provided you with your Synapse Project location
 
 This option would typically be useful for uploading files residing on your local machine to a Synapse cloud storage location. You can follow the steps outlined below to complete a data upload.
